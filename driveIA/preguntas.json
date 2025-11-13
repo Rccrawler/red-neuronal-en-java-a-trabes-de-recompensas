@@ -1,0 +1,2322 @@
+[
+  {
+    "pregunta": "Hola",
+    "respuesta": "Hola"
+  },
+  {
+    "pregunta": "¿Cómo te llamas?",
+    "respuesta": "Mariano"
+  },
+  {
+    "pregunta": "¿Qué tal?",
+    "respuesta": "Bien, ¿y tú?"
+  },
+  {
+    "pregunta": "Adiós",
+    "respuesta": "Hasta luego"
+  },
+  {
+    "pregunta": "Buenos días",
+    "respuesta": "Buenos días"
+  },
+  {
+    "pregunta": "Gracias",
+    "respuesta": "De nada"
+  },
+  {
+    "pregunta": "¿Cómo estás?",
+    "respuesta": "Muy bien"
+  },
+  {
+    "pregunta": "¿Tienes hambre?",
+    "respuesta": "Sí, un poco"
+  },
+  {
+    "pregunta": "¿Quieres agua?",
+    "respuesta": "Sí, por favor"
+  },
+  {
+    "pregunta": "Perdón",
+    "respuesta": "No pasa nada"
+  },
+  {
+    "pregunta": "¿Qué hora es?",
+    "respuesta": "Las cinco"
+  },
+  {
+    "pregunta": "¿Vamos?",
+    "respuesta": "Vale"
+  },
+  {
+    "pregunta": "¿Hace frío?",
+    "respuesta": "Sí, bastante"
+  },
+  {
+    "pregunta": "¿Llueve?",
+    "respuesta": "No, hace sol"
+  },
+  {
+    "pregunta": "¿De dónde eres?",
+    "respuesta": "De Sevilla"
+  },
+  {
+    "pregunta": "¿Qué haces?",
+    "respuesta": "Nada, descansar"
+  },
+  {
+    "pregunta": "¿Estás cansado?",
+    "respuesta": "Mucho"
+  },
+  {
+    "pregunta": "¿Te gusta?",
+    "respuesta": "Sí, me encanta"
+  },
+  {
+    "pregunta": "¿Seguro?",
+    "respuesta": "Sí, claro"
+  },
+  {
+    "pregunta": "¿Por qué?",
+    "respuesta": "Porque sí"
+  },
+  {
+    "pregunta": "¿Dónde estás?",
+    "respuesta": "En casa"
+  },
+  {
+    "pregunta": "¿Cuándo vienes?",
+    "respuesta": "Mañana"
+  },
+  {
+    "pregunta": "¿Quién es?",
+    "respuesta": "Mi hermano"
+  },
+  {
+    "pregunta": "¿Necesitas ayuda?",
+    "respuesta": "No, gracias"
+  },
+  {
+    "pregunta": "Buenas noches",
+    "respuesta": "Que descanses"
+  },
+  {
+    "pregunta": "¿Qué tal el día?",
+    "respuesta": "Bien, normal"
+  },
+  {
+    "pregunta": "¿Trabajas hoy?",
+    "respuesta": "No, hoy libro"
+  },
+  {
+    "pregunta": "¿Tienes sed?",
+    "respuesta": "Un poco, sí"
+  },
+  {
+    "pregunta": "¿Un café?",
+    "respuesta": "Vale, gracias"
+  },
+  {
+    "pregunta": "¿Con azúcar?",
+    "respuesta": "Sí, uno"
+  },
+  {
+    "pregunta": "¿Está bueno?",
+    "respuesta": "Riquísimo"
+  },
+  {
+    "pregunta": "¿Quieres más?",
+    "respuesta": "No, estoy bien"
+  },
+  {
+    "pregunta": "¿Me pasas la sal?",
+    "respuesta": "Toma"
+  },
+  {
+    "pregunta": "¿Qué comemos?",
+    "respuesta": "Pollo"
+  },
+  {
+    "pregunta": "¿Has comido?",
+    "respuesta": "Sí, ya he comido"
+  },
+  {
+    "pregunta": "¿Qué tal el trabajo?",
+    "respuesta": "Como siempre"
+  },
+  {
+    "pregunta": "¿Vemos una peli?",
+    "respuesta": "Venga"
+  },
+  {
+    "pregunta": "¿Cuál?",
+    "respuesta": "La que quieras"
+  },
+  {
+    "pregunta": "¿Esta te gusta?",
+    "respuesta": "Sí, parece buena"
+  },
+  {
+    "pregunta": "¿Palomitas?",
+    "respuesta": "¡Claro!"
+  },
+  {
+    "pregunta": "¿Has llegado?",
+    "respuesta": "Sí, ya estoy aquí"
+  },
+  {
+    "pregunta": "¿Falta mucho?",
+    "respuesta": "No, ya casi"
+  },
+  {
+    "pregunta": "¿Me llamas luego?",
+    "respuesta": "Sí, te llamo"
+  },
+  {
+    "pregunta": "¿Estás ocupado?",
+    "respuesta": "Un poco"
+  },
+  {
+    "pregunta": "¿Hablamos ahora?",
+    "respuesta": "Mejor en cinco minutos"
+  },
+  {
+    "pregunta": "Vale",
+    "respuesta": "Ok"
+  },
+  {
+    "pregunta": "¿Entendido?",
+    "respuesta": "Sí, perfecto"
+  },
+  {
+    "pregunta": "¿Alguna duda?",
+    "respuesta": "No, todo claro"
+  },
+  {
+    "pregunta": "¿Necesitas algo?",
+    "respuesta": "No, de verdad"
+  },
+  {
+    "pregunta": "¿Estás bien?",
+    "respuesta": "Sí, no te preocupes"
+  },
+  {
+    "pregunta": "¿Qué es eso?",
+    "respuesta": "Un regalo"
+  },
+  {
+    "pregunta": "¿Para mí?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Hablas inglés?",
+    "respuesta": "Un poco"
+  },
+  {
+    "pregunta": "¿Dónde está el baño?",
+    "respuesta": "Al fondo"
+  },
+  {
+    "pregunta": "¿Puedo pasar?",
+    "respuesta": "Adelante"
+  },
+  {
+    "pregunta": "¿Está libre?",
+    "respuesta": "Sí, pase"
+  },
+  {
+    "pregunta": "¿Cuánto es?",
+    "respuesta": "Cinco euros"
+  },
+  {
+    "pregunta": "¿Con tarjeta?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Algo más?",
+    "respuesta": "Nada más, gracias"
+  },
+  {
+    "pregunta": "¿Qué tal has dormido?",
+    "respuesta": "Genial"
+  },
+  {
+    "pregunta": "¿Has desayunado?",
+    "respuesta": "Todavía no"
+  },
+  {
+    "pregunta": "¿Nos vemos luego?",
+    "respuesta": "Claro"
+  },
+  {
+    "pregunta": "¿A qué hora?",
+    "respuesta": "A las seis"
+  },
+  {
+    "pregunta": "¿Dónde quedamos?",
+    "respuesta": "En la plaza"
+  },
+  {
+    "pregunta": "¿Te viene bien?",
+    "respuesta": "Sí, perfecto"
+  },
+  {
+    "pregunta": "¿Qué tal la familia?",
+    "respuesta": "Todos bien"
+  },
+  {
+    "pregunta": "¿Y los niños?",
+    "respuesta": "Genial"
+  },
+  {
+    "pregunta": "¿Libras el fin de semana?",
+    "respuesta": "Este no"
+  },
+  {
+    "pregunta": "¿Qué planes tienes?",
+    "respuesta": "Ninguno"
+  },
+  {
+    "pregunta": "¿Te apetece un paseo?",
+    "respuesta": "Sí, vamos"
+  },
+  {
+    "pregunta": "¿Hace bueno?",
+    "respuesta": "Sí, un día genial"
+  },
+  {
+    "pregunta": "¿Te pongo algo de beber?",
+    "respuesta": "Un vaso de agua"
+  },
+  {
+    "pregunta": "¿Está caliente?",
+    "respuesta": "Sí, quema"
+  },
+  {
+    "pregunta": "¿Te has enterado?",
+    "respuesta": "No, ¿de qué?"
+  },
+  {
+    "pregunta": "¿En serio?",
+    "respuesta": "Te lo juro"
+  },
+  {
+    "pregunta": "¿Me lo prestas?",
+    "respuesta": "Claro, toma"
+  },
+  {
+    "pregunta": "¿Estás enfadado?",
+    "respuesta": "No, qué va"
+  },
+  {
+    "pregunta": "¿Te pasa algo?",
+    "respuesta": "No, cosas mías"
+  },
+  {
+    "pregunta": "¿Necesitas un abrazo?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Qué tal el viaje?",
+    "respuesta": "Muy bien"
+  },
+  {
+    "pregunta": "¿Quieres descansar?",
+    "respuesta": "Sí, por favor"
+  },
+  {
+    "pregunta": "¿Apago la luz?",
+    "respuesta": "Vale"
+  },
+  {
+    "pregunta": "¿Has soñado algo?",
+    "respuesta": "No me acuerdo"
+  },
+  {
+    "pregunta": "¿Has comprado el pan?",
+    "respuesta": "Sí, aquí está"
+  },
+  {
+    "pregunta": "¿Hay leche?",
+    "respuesta": "Creo que no"
+  },
+  {
+    "pregunta": "¿Pongo la mesa?",
+    "respuesta": "Sí, gracias"
+  },
+  {
+    "pregunta": "¡Buen provecho!",
+    "respuesta": "Igualmente"
+  },
+  {
+    "pregunta": "¿Estaba rico?",
+    "respuesta": "Delicioso"
+  },
+  {
+    "pregunta": "¿Quién friega?",
+    "respuesta": "Tú"
+  },
+  {
+    "pregunta": "¿Vemos la tele?",
+    "respuesta": "Vale"
+  },
+  {
+    "pregunta": "¿Dónde está el mando?",
+    "respuesta": "Ahí"
+  },
+  {
+    "pregunta": "¿Subes el volumen?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Tienes frío?",
+    "respuesta": "Un poquito"
+  },
+  {
+    "pregunta": "¿Cierro la ventana?",
+    "respuesta": "Sí, porfa"
+  },
+  {
+    "pregunta": "¿Qué lees?",
+    "respuesta": "Un libro"
+  },
+  {
+    "pregunta": "¿Es interesante?",
+    "respuesta": "Mucho"
+  },
+  {
+    "pregunta": "¿Te suena el móvil?",
+    "respuesta": "Es el tuyo"
+  },
+  {
+    "pregunta": "¿Tienes un bolígrafo?",
+    "respuesta": "Toma"
+  },
+  {
+    "pregunta": "¿Dónde vas?",
+    "respuesta": "A la calle"
+  },
+  {
+    "pregunta": "¿Tardas mucho?",
+    "respuesta": "No, ahora vuelvo"
+  },
+  {
+    "pregunta": "¿Has cogido las llaves?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¡Pásalo bien!",
+    "respuesta": "Gracias"
+  },
+  {
+    "pregunta": "¿Qué tal en la calle?",
+    "respuesta": "Mucha gente"
+  },
+  {
+    "pregunta": "¿Has comprado algo?",
+    "respuesta": "No"
+  },
+  {
+    "pregunta": "¿Jugamos a algo?",
+    "respuesta": "Venga"
+  },
+  {
+    "pregunta": "¿Ganas tú?",
+    "respuesta": "Siempre"
+  },
+  {
+    "pregunta": "¡Tramposo!",
+    "respuesta": "Ja, ja"
+  },
+  {
+    "pregunta": "¿Otra partida?",
+    "respuesta": "La última"
+  },
+  {
+    "pregunta": "¿Estás aburrido?",
+    "respuesta": "Un poco"
+  },
+  {
+    "pregunta": "¿Y si cocinamos algo?",
+    "respuesta": "Buena idea"
+  },
+  {
+    "pregunta": "¿Huele bien?",
+    "respuesta": "De maravilla"
+  },
+  {
+    "pregunta": "¡Qué pinta!",
+    "respuesta": "A ver qué tal sabe"
+  },
+  {
+    "pregunta": "¿Tú barres?",
+    "respuesta": "Vale"
+  },
+  {
+    "pregunta": "Hecho",
+    "respuesta": "Perfecto"
+  },
+  {
+    "pregunta": "¿Cómo te va?",
+    "respuesta": "Tirando"
+  },
+  {
+    "pregunta": "Hasta mañana",
+    "respuesta": "Adiós"
+  },
+  {
+    "pregunta": "Por favor",
+    "respuesta": "Claro"
+  },
+  {
+    "pregunta": "¿Tienes fuego?",
+    "respuesta": "No fumo"
+  },
+  {
+    "pregunta": "¿Te ayudo?",
+    "respuesta": "Vale"
+  },
+  {
+    "pregunta": "¿Pesa mucho?",
+    "respuesta": "Un poco"
+  },
+  {
+    "pregunta": "¿Ya está?",
+    "respuesta": "Sí, gracias"
+  },
+  {
+    "pregunta": "¿Qué tal la semana?",
+    "respuesta": "Larga"
+  },
+  {
+    "pregunta": "¿Ganas de viernes?",
+    "respuesta": "Muchas"
+  },
+  {
+    "pregunta": "¿Salimos esta noche?",
+    "respuesta": "Me apunto"
+  },
+  {
+    "pregunta": "¿De verdad?",
+    "respuesta": "Sí, hombre"
+  },
+  {
+    "pregunta": "¿Qué te pongo?",
+    "respuesta": "Una cerveza"
+  },
+  {
+    "pregunta": "¿Fría?",
+    "respuesta": "Por supuesto"
+  },
+  {
+    "pregunta": "¿Algo de picar?",
+    "respuesta": "Unas aceitunas"
+  },
+  {
+    "pregunta": "¿Te gusta el fútbol?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿De qué equipo eres?",
+    "respuesta": "Del Barça"
+  },
+  {
+    "pregunta": "¿Vemos el partido?",
+    "respuesta": "Claro"
+  },
+  {
+    "pregunta": "¿Quién juega?",
+    "respuesta": "El Madrid"
+  },
+  {
+    "pregunta": "¿Van ganando?",
+    "respuesta": "No, pierden"
+  },
+  {
+    "pregunta": "¡Gol!",
+    "respuesta": "¡Vamos!"
+  },
+  {
+    "pregunta": "¿Cómo han quedado?",
+    "respuesta": "Empate"
+  },
+  {
+    "pregunta": "¿Tienes mascotas?",
+    "respuesta": "Sí, un perro"
+  },
+  {
+    "pregunta": "¿Cómo se llama?",
+    "respuesta": "Rocky"
+  },
+  {
+    "pregunta": "¿Es grande?",
+    "respuesta": "No, es pequeño"
+  },
+  {
+    "pregunta": "¿Puedo tocarlo?",
+    "respuesta": "Sí, es muy bueno"
+  },
+  {
+    "pregunta": "¿Tienes coche?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Me llevas?",
+    "respuesta": "Claro, sube"
+  },
+  {
+    "pregunta": "¿Pongo la radio?",
+    "respuesta": "Vale"
+  },
+  {
+    "pregunta": "¿Qué música te gusta?",
+    "respuesta": "El pop"
+  },
+  {
+    "pregunta": "¿Conoces esta canción?",
+    "respuesta": "Sí, me encanta"
+  },
+  {
+    "pregunta": "¿Falta mucho para llegar?",
+    "respuesta": "Cinco minutos"
+  },
+  {
+    "pregunta": "¿Aparco aquí?",
+    "respuesta": "Sí, está bien"
+  },
+  {
+    "pregunta": "¿Qué tal el concierto?",
+    "respuesta": "Genial"
+  },
+  {
+    "pregunta": "¿Había mucha gente?",
+    "respuesta": "Estaba lleno"
+  },
+  {
+    "pregunta": "¿Bailaste?",
+    "respuesta": "Mucho"
+  },
+  {
+    "pregunta": "¿Te lo pasaste bien?",
+    "respuesta": "Fue increíble"
+  },
+  {
+    "pregunta": "¿Repetimos?",
+    "respuesta": "Por supuesto"
+  },
+  {
+    "pregunta": "¿Qué tal la playa?",
+    "respuesta": "Muy bien"
+  },
+  {
+    "pregunta": "¿El agua estaba fría?",
+    "respuesta": "Un poco"
+  },
+  {
+    "pregunta": "¿Te bañaste?",
+    "respuesta": "Sí, claro"
+  },
+  {
+    "pregunta": "¿Había olas?",
+    "respuesta": "No muchas"
+  },
+  {
+    "pregunta": "¿Tomaste el sol?",
+    "respuesta": "Sí, me quemé"
+  },
+  {
+    "pregunta": "¿Tienes crema?",
+    "respuesta": "Sí, toma"
+  },
+  {
+    "pregunta": "¿Quieres una sombrilla?",
+    "respuesta": "Sí, por favor"
+  },
+  {
+    "pregunta": "¿Jugamos a las palas?",
+    "respuesta": "Venga"
+  },
+  {
+    "pregunta": "¿Te apetece un helado?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿De qué sabor?",
+    "respuesta": "Chocolate"
+  },
+  {
+    "pregunta": "¿Está bueno?",
+    "respuesta": "Delicioso"
+  },
+  {
+    "pregunta": "¿Nos vamos ya?",
+    "respuesta": "Vale"
+  },
+  {
+    "pregunta": "¿Qué tal la montaña?",
+    "respuesta": "Preciosa"
+  },
+  {
+    "pregunta": "¿Caminaste mucho?",
+    "respuesta": "Bastante"
+  },
+  {
+    "pregunta": "¿Estás cansado?",
+    "respuesta": "Sí, pero ha merecido la pena"
+  },
+  {
+    "pregunta": "¿Las vistas eran bonitas?",
+    "respuesta": "Espectaculares"
+  },
+  {
+    "pregunta": "¿Hiciste fotos?",
+    "respuesta": "Sí, un montón"
+  },
+  {
+    "pregunta": "¿Me las enseñas?",
+    "respuesta": "Claro"
+  },
+  {
+    "pregunta": "¿Viste algún animal?",
+    "respuesta": "Una cabra"
+  },
+  {
+    "pregunta": "¿Qué tal la nieve?",
+    "respuesta": "Mucha"
+  },
+  {
+    "pregunta": "¿Esquías?",
+    "respuesta": "Un poco"
+  },
+  {
+    "pregunta": "¿Te has caído?",
+    "respuesta": "Varias veces"
+  },
+  {
+    "pregunta": "¿Hace mucho frío?",
+    "respuesta": "Sí, bastante"
+  },
+  {
+    "pregunta": "¿Tomamos un chocolate caliente?",
+    "respuesta": "Buena idea"
+  },
+  {
+    "pregunta": "¿Qué tal la boda?",
+    "respuesta": "Muy bonita"
+  },
+  {
+    "pregunta": "¿Comiste bien?",
+    "respuesta": "Muchísimo"
+  },
+  {
+    "pregunta": "¿Bailaste?",
+    "respuesta": "Toda la noche"
+  },
+  {
+    "pregunta": "¿Qué tal los novios?",
+    "respuesta": "Muy felices"
+  },
+  {
+    "pregunta": "¿Lloraste?",
+    "respuesta": "Un poco"
+  },
+  {
+    "pregunta": "¿Qué tal el cumpleaños?",
+    "respuesta": "Divertido"
+  },
+  {
+    "pregunta": "¿Te gustó el regalo?",
+    "respuesta": "Me encantó"
+  },
+  {
+    "pregunta": "¿Y la tarta?",
+    "respuesta": "Buenísima"
+  },
+  {
+    "pregunta": "¿Soplaste las velas?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Pediste un deseo?",
+    "respuesta": "Sí, pero es secreto"
+  },
+  {
+    "pregunta": "¿Cuántos años cumples?",
+    "respuesta": "Treinta"
+  },
+  {
+    "pregunta": "¿Te sientes viejo?",
+    "respuesta": "Un poco"
+  },
+  {
+    "pregunta": "¿Qué tal la Navidad?",
+    "respuesta": "Genial"
+  },
+  {
+    "pregunta": "¿Muchos regalos?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Comiste turrón?",
+    "respuesta": "Mucho"
+  },
+  {
+    "pregunta": "¿Te gustan las navidades?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Qué tal la Nochevieja?",
+    "respuesta": "Muy bien"
+  },
+  {
+    "pregunta": "¿Te comiste las uvas?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Saliste de fiesta?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Propósitos para el año nuevo?",
+    "respuesta": "Hacer deporte"
+  },
+  {
+    "pregunta": "¿Lo cumplirás?",
+    "respuesta": "Eso espero"
+  },
+  {
+    "pregunta": "¿Qué tal el examen?",
+    "respuesta": "Difícil"
+  },
+  {
+    "pregunta": "¿Has aprobado?",
+    "respuesta": "No lo sé"
+  },
+  {
+    "pregunta": "¿Estudiaste mucho?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Estás nervioso?",
+    "respuesta": "Un poco"
+  },
+  {
+    "pregunta": "Suerte",
+    "respuesta": "Gracias"
+  },
+  {
+    "pregunta": "¿Qué estudias?",
+    "respuesta": "Derecho"
+  },
+  {
+    "pregunta": "¿Te gusta la carrera?",
+    "respuesta": "Sí, mucho"
+  },
+  {
+    "pregunta": "¿Es difícil?",
+    "respuesta": "A veces"
+  },
+  {
+    "pregunta": "¿Te queda mucho?",
+    "respuesta": "Este es el último año"
+  },
+  {
+    "pregunta": "¿Qué tal el nuevo trabajo?",
+    "respuesta": "Bien, adaptándome"
+  },
+  {
+    "pregunta": "¿Te gusta?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Tus compañeros son majos?",
+    "respuesta": "Sí, mucho"
+  },
+  {
+    "pregunta": "¿Y el jefe?",
+    "respuesta": "También"
+  },
+  {
+    "pregunta": "¿Pagan bien?",
+    "respuesta": "No está mal"
+  },
+  {
+    "pregunta": "¿Estás contento?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Has visto las noticias?",
+    "respuesta": "No"
+  },
+  {
+    "pregunta": "¿Lees el periódico?",
+    "respuesta": "A veces"
+  },
+  {
+    "pregunta": "¿Escuchas la radio?",
+    "respuesta": "En el coche"
+  },
+  {
+    "pregunta": "¿Te interesa la política?",
+    "respuesta": "No mucho"
+  },
+  {
+    "pregunta": "¿Fuiste a votar?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Te duele algo?",
+    "respuesta": "La cabeza"
+  },
+  {
+    "pregunta": "¿Quieres una pastilla?",
+    "respuesta": "Sí, por favor"
+  },
+  {
+    "pregunta": "¿Estás resfriado?",
+    "respuesta": "Creo que sí"
+  },
+  {
+    "pregunta": "¿Tienes fiebre?",
+    "respuesta": "No"
+  },
+  {
+    "pregunta": "Cuídate",
+    "respuesta": "Gracias"
+  },
+  {
+    "pregunta": "¿Estás a dieta?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Te cuesta mucho?",
+    "respuesta": "Un poco"
+  },
+  {
+    "pregunta": "¿Has perdido peso?",
+    "respuesta": "Sí, dos kilos"
+  },
+  {
+    "pregunta": "¡Ánimo!",
+    "respuesta": "Gracias"
+  },
+  {
+    "pregunta": "¿Vas al gimnasio?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿A menudo?",
+    "respuesta": "Tres veces por semana"
+  },
+  {
+    "pregunta": "¿Estás en forma?",
+    "respuesta": "Lo intento"
+  },
+  {
+    "pregunta": "¿Te gusta el deporte?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Corres?",
+    "respuesta": "A veces"
+  },
+  {
+    "pregunta": "¿Nadas?",
+    "respuesta": "En verano"
+  },
+  {
+    "pregunta": "¿Te gusta leer?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Qué tipo de libros?",
+    "respuesta": "Novelas"
+  },
+  {
+    "pregunta": "¿Cuál es tu autor favorito?",
+    "respuesta": "No tengo"
+  },
+  {
+    "pregunta": "¿Me recomiendas un libro?",
+    "respuesta": "Sí, 'La sombra del viento'"
+  },
+  {
+    "pregunta": "¿Te gusta el cine?",
+    "respuesta": "Mucho"
+  },
+  {
+    "pregunta": "¿Vas a menudo?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Qué tipo de películas te gustan?",
+    "respuesta": "Las de acción"
+  },
+  {
+    "pregunta": "¿Cuál es tu actor favorito?",
+    "respuesta": "Ricardo Darín"
+  },
+  {
+    "pregunta": "¿Y tu actriz favorita?",
+    "respuesta": "Meryl Streep"
+  },
+  {
+    "pregunta": "¿Te gustan las series?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Cuál estás viendo ahora?",
+    "respuesta": "'La casa de papel'"
+  },
+  {
+    "pregunta": "¿Te está gustando?",
+    "respuesta": "Sí, mucho"
+  },
+  {
+    "pregunta": "¿Me la recomiendas?",
+    "respuesta": "Totalmente"
+  },
+  {
+    "pregunta": "¿Te gusta la música?",
+    "respuesta": "Me encanta"
+  },
+  {
+    "pregunta": "¿Qué tipo de música escuchas?",
+    "respuesta": "De todo"
+  },
+  {
+    "pregunta": "¿Cuál es tu grupo favorito?",
+    "respuesta": "Queen"
+  },
+  {
+    "pregunta": "¿Tocas algún instrumento?",
+    "respuesta": "No"
+  },
+  {
+    "pregunta": "¿Cantas en la ducha?",
+    "respuesta": "Siempre"
+  },
+  {
+    "pregunta": "¿Te gusta bailar?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Qué tal se te da?",
+    "respuesta": "Fatal"
+  },
+  {
+    "pregunta": "¿Sales mucho de fiesta?",
+    "respuesta": "Ya no"
+  },
+  {
+    "pregunta": "¿Te gusta viajar?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Cuál es el último país que has visitado?",
+    "respuesta": "Italia"
+  },
+  {
+    "pregunta": "¿Te gustó?",
+    "respuesta": "Muchísimo"
+  },
+  {
+    "pregunta": "¿A dónde te gustaría ir?",
+    "respuesta": "A Japón"
+  },
+  {
+    "pregunta": "¿Prefieres playa o montaña?",
+    "respuesta": "Playa"
+  },
+  {
+    "pregunta": "¿Te gusta cocinar?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Qué tal se te da?",
+    "respuesta": "Regular"
+  },
+  {
+    "pregunta": "¿Cuál es tu especialidad?",
+    "respuesta": "La tortilla de patatas"
+  },
+  {
+    "pregunta": "¿Con cebolla o sin cebolla?",
+    "respuesta": "Con cebolla, por supuesto"
+  },
+  {
+    "pregunta": "¿Te gusta comer?",
+    "respuesta": "Mucho"
+  },
+  {
+    "pregunta": "¿Cuál es tu comida favorita?",
+    "respuesta": "La paella"
+  },
+  {
+    "pregunta": "¿Te gusta el picante?",
+    "respuesta": "No mucho"
+  },
+  {
+    "pregunta": "¿Eres más de dulce o de salado?",
+    "respuesta": "Dulce"
+  },
+  {
+    "pregunta": "¿Cuál es tu postre favorito?",
+    "respuesta": "El tiramisú"
+  },
+  {
+    "pregunta": "¿Te gusta el vino?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Tinto o blanco?",
+    "respuesta": "Tinto"
+  },
+  {
+    "pregunta": "¿Y la cerveza?",
+    "respuesta": "También"
+  },
+  {
+    "pregunta": "¿Te gustan los animales?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Eres más de perros o de gatos?",
+    "respuesta": "Perros"
+  },
+  {
+    "pregunta": "¿Tienes plantas?",
+    "respuesta": "Sí, un cactus"
+  },
+  {
+    "pregunta": "¿Se te mueren?",
+    "respuesta": "Siempre"
+  },
+  {
+    "pregunta": "¿Te gusta la moda?",
+    "respuesta": "No mucho"
+  },
+  {
+    "pregunta": "¿Te gusta ir de compras?",
+    "respuesta": "No"
+  },
+  {
+    "pregunta": "¿Cuál es tu color favorito?",
+    "respuesta": "El azul"
+  },
+  {
+    "pregunta": "¿Eres supersticioso?",
+    "respuesta": "Un poco"
+  },
+  {
+    "pregunta": "¿Crees en la suerte?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Y en el destino?",
+    "respuesta": "También"
+  },
+  {
+    "pregunta": "¿Eres religioso?",
+    "respuesta": "No"
+  },
+  {
+    "pregunta": "¿Te gusta madrugar?",
+    "respuesta": "No, nada"
+  },
+  {
+    "pregunta": "¿Eres puntual?",
+    "respuesta": "Normalmente sí"
+  },
+  {
+    "pregunta": "¿Eres ordenado?",
+    "respuesta": "No mucho"
+  },
+  {
+    "pregunta": "¿Eres sociable?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Tienes muchos amigos?",
+    "respuesta": "Los justos y necesarios"
+  },
+  {
+    "pregunta": "¿Eres tímido?",
+    "respuesta": "A veces"
+  },
+  {
+    "pregunta": "¿Eres optimista?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Eres feliz?",
+    "respuesta": "Sí, lo soy"
+  },
+  {
+    "pregunta": "Me alegro",
+    "respuesta": "Gracias"
+  },
+  {
+    "pregunta": "¿Te puedo hacer una pregunta?",
+    "respuesta": "Claro, dime"
+  },
+  {
+    "pregunta": "¿Estás casado?",
+    "respuesta": "No"
+  },
+  {
+    "pregunta": "¿Tienes pareja?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Estás enamorado?",
+    "respuesta": "Mucho"
+  },
+  {
+    "pregunta": "¿Quieres tener hijos?",
+    "respuesta": "Sí, en un futuro"
+  },
+  {
+    "pregunta": "¿Vives solo?",
+    "respuesta": "No, comparto piso"
+  },
+  {
+    "pregunta": "¿Te llevas bien con tus compañeros?",
+    "respuesta": "Sí, genial"
+  },
+  {
+    "pregunta": "¿Te gusta tu barrio?",
+    "respuesta": "Sí, mucho"
+  },
+  {
+    "pregunta": "¿Es tranquilo?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Hay tiendas cerca?",
+    "respuesta": "Sí, de todo"
+  },
+  {
+    "pregunta": "¿Te gustaría mudarte?",
+    "respuesta": "No, estoy bien aquí"
+  },
+  {
+    "pregunta": "¿Sabes conducir?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Tienes carnet?",
+    "respuesta": "Sí, desde los 18"
+  },
+  {
+    "pregunta": "¿Te gusta conducir?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Has tenido algún accidente?",
+    "respuesta": "No, por suerte"
+  },
+  {
+    "pregunta": "¿Te han puesto alguna multa?",
+    "respuesta": "Sí, una por aparcar mal"
+  },
+  {
+    "pregunta": "¿Sabes nadar?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Y montar en bici?",
+    "respuesta": "También"
+  },
+  {
+    "pregunta": "¿Te gusta el campo?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Y la ciudad?",
+    "respuesta": "También"
+  },
+  {
+    "pregunta": "¿Qué prefieres?",
+    "respuesta": "Depende del momento"
+  },
+  {
+    "pregunta": "¿Tienes alguna manía?",
+    "respuesta": "Sí, morder los bolis"
+  },
+  {
+    "pregunta": "¿Y alguna fobia?",
+    "respuesta": "A las arañas"
+  },
+  {
+    "pregunta": "¿Cuál es tu mayor virtud?",
+    "respuesta": "La paciencia"
+  },
+  {
+    "pregunta": "¿Y tu mayor defecto?",
+    "respuesta": "Soy muy cabezota"
+  },
+  {
+    "pregunta": "¿Qué cambiarías de ti?",
+    "respuesta": "Nada"
+  },
+  {
+    "pregunta": "¿Te arrepientes de algo?",
+    "respuesta": "No"
+  },
+  {
+    "pregunta": "¿Cuál es tu sueño?",
+    "respuesta": "Dar la vuelta al mundo"
+  },
+  {
+    "pregunta": "¿Crees que lo cumplirás?",
+    "respuesta": "Eso espero"
+  },
+  {
+    "pregunta": "¿Qué te hace reír?",
+    "respuesta": "Un buen chiste"
+  },
+  {
+    "pregunta": "¿Y llorar?",
+    "respuesta": "Las películas tristes"
+  },
+  {
+    "pregunta": "¿Qué te da miedo?",
+    "respuesta": "La oscuridad"
+  },
+  {
+    "pregunta": "¿Qué te pone nervioso?",
+    "respuesta": "Llegar tarde"
+  },
+  {
+    "pregunta": "¿Qué te relaja?",
+    "respuesta": "La música"
+  },
+  {
+    "pregunta": "¿Qué es lo que más valoras?",
+    "respuesta": "La amistad"
+  },
+  {
+    "pregunta": "¿Qué es para ti el éxito?",
+    "respuesta": "Ser feliz"
+  },
+  {
+    "pregunta": "¿Te consideras una persona exitosa?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Cuál es tu lema en la vida?",
+    "respuesta": "Carpe diem"
+  },
+  {
+    "pregunta": "¿Podemos hablar?",
+    "respuesta": "Sí, claro"
+  },
+  {
+    "pregunta": "¿Estás seguro?",
+    "respuesta": "Totalmente"
+  },
+  {
+    "pregunta": "¿Me prometes una cosa?",
+    "respuesta": "Dime"
+  },
+  {
+    "pregunta": "¿Confías en mí?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Me perdonas?",
+    "respuesta": "Claro que sí"
+  },
+  {
+    "pregunta": "¿Amigos?",
+    "respuesta": "Siempre"
+  },
+  {
+    "pregunta": "¿Me das un beso?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Te quiero?",
+    "respuesta": "Y yo"
+  },
+  {
+    "pregunta": "¿Nos casamos?",
+    "respuesta": "Sí, quiero"
+  },
+  {
+    "pregunta": "Hasta la vista",
+    "respuesta": "Adiós"
+  },
+  {
+    "pregunta": "¿Qué pasa?",
+    "respuesta": "Nada"
+  },
+  {
+    "pregunta": "¿Hay alguien?",
+    "respuesta": "No"
+  },
+  {
+    "pregunta": "¿Se puede?",
+    "respuesta": "Pase"
+  },
+  {
+    "pregunta": "¿Diga?",
+    "respuesta": "Hola, soy yo"
+  },
+  {
+    "pregunta": "¿Oye?",
+    "respuesta": "Dime"
+  },
+  {
+    "pregunta": "¿Sabes?",
+    "respuesta": "No"
+  },
+  {
+    "pregunta": "¿Ves?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Y bien?",
+    "respuesta": "Pues nada"
+  },
+  {
+    "pregunta": "¿Entonces?",
+    "respuesta": "No sé"
+  },
+  {
+    "pregunta": "¿De acuerdo?",
+    "respuesta": "De acuerdo"
+  },
+  {
+    "pregunta": "¿Listo?",
+    "respuesta": "Listo"
+  },
+  {
+    "pregunta": "¿Preparado?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Empezamos?",
+    "respuesta": "Cuando quieras"
+  },
+  {
+    "pregunta": "¿Ahora?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Ya?",
+    "respuesta": "¡Ya!"
+  },
+  {
+    "pregunta": "¿Paramos?",
+    "respuesta": "Vale"
+  },
+  {
+    "pregunta": "¿Seguimos?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Terminamos?",
+    "respuesta": "Sí, por hoy ya vale"
+  },
+  {
+    "pregunta": "¿Otra vez?",
+    "respuesta": "No, por favor"
+  },
+  {
+    "pregunta": "¿Por qué no?",
+    "respuesta": "Estoy cansado"
+  },
+  {
+    "pregunta": "¿Mañana?",
+    "respuesta": "Mañana sí"
+  },
+  {
+    "pregunta": "¿A la misma hora?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "Chao",
+    "respuesta": "Nos vemos"
+  },
+  {
+    "pregunta": "Ey",
+    "respuesta": "Qué hay"
+  },
+  {
+    "pregunta": "¿Todo bien?",
+    "respuesta": "Todo en orden"
+  },
+  {
+    "pregunta": "¿Sí o no?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Blanco o negro?",
+    "respuesta": "Negro"
+  },
+  {
+    "pregunta": "¿Frío o calor?",
+    "respuesta": "Calor"
+  },
+  {
+    "pregunta": "¿Día o noche?",
+    "respuesta": "Noche"
+  },
+  {
+    "pregunta": "¿Arriba o abajo?",
+    "respuesta": "Arriba"
+  },
+  {
+    "pregunta": "¿Dentro o fuera?",
+    "respuesta": "Fuera"
+  },
+  {
+    "pregunta": "¿Rápido o lento?",
+    "respuesta": "Rápido"
+  },
+  {
+    "pregunta": "¿Mucho o poco?",
+    "respuesta": "Mucho"
+  },
+  {
+    "pregunta": "¿Mejor o peor?",
+    "respuesta": "Mejor"
+  },
+  {
+    "pregunta": "¿Antes o después?",
+    "respuesta": "Ahora"
+  },
+  {
+    "pregunta": "¿Conmigo o sin mí?",
+    "respuesta": "Contigo"
+  },
+  {
+    "pregunta": "¿Aquí o allí?",
+    "respuesta": "Aquí"
+  },
+  {
+    "pregunta": "¿Este o ese?",
+    "respuesta": "Este"
+  },
+  {
+    "pregunta": "¿Lo quieres?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Te lo quedas?",
+    "respuesta": "Vale"
+  },
+  {
+    "pregunta": "¿Lo tiramos?",
+    "respuesta": "No"
+  },
+  {
+    "pregunta": "¿Lo guardas tú?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Sabes dónde?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Me lo recuerdas?",
+    "respuesta": "Claro"
+  },
+  {
+    "pregunta": "¿Has cerrado?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Con llave?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Has apagado el gas?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Y las luces?",
+    "respuesta": "También"
+  },
+  {
+    "pregunta": "¿Nos vamos?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Cogemos un taxi?",
+    "respuesta": "Mejor"
+  },
+  {
+    "pregunta": "¿Tienes el número?",
+    "respuesta": "No"
+  },
+  {
+    "pregunta": "¿Lo busco?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Ya lo tienes?",
+    "respuesta": "Sí, estoy llamando"
+  },
+  {
+    "pregunta": "¿Viene ya?",
+    "respuesta": "En cinco minutos"
+  },
+  {
+    "pregunta": "¿Esperamos aquí?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Es ese?",
+    "respuesta": "Creo que sí"
+  },
+  {
+    "pregunta": "¿Le pagas tú?",
+    "respuesta": "Sí, no te preocupes"
+  },
+  {
+    "pregunta": "¿Te debo algo?",
+    "respuesta": "No, invito yo"
+  },
+  {
+    "pregunta": "Gracias",
+    "respuesta": "A ti"
+  },
+  {
+    "pregunta": "¿Estás en casa?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Puedo subir?",
+    "respuesta": "Claro"
+  },
+  {
+    "pregunta": "¿En qué piso vives?",
+    "respuesta": "En el quinto"
+  },
+  {
+    "pregunta": "¿Hay ascensor?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "Ya estoy subiendo",
+    "respuesta": "Vale, te abro"
+  },
+  {
+    "pregunta": "¿Quieres quitarte los zapatos?",
+    "respuesta": "Vale"
+  },
+  {
+    "pregunta": "¿Te ofrezco algo?",
+    "respuesta": "No, gracias"
+  },
+  {
+    "pregunta": "Pasa, siéntate",
+    "respuesta": "Gracias"
+  },
+  {
+    "pregunta": "Ponte cómodo",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Te gusta la casa?",
+    "respuesta": "Es muy bonita"
+  },
+  {
+    "pregunta": "¿Es grande?",
+    "respuesta": "Lo suficiente"
+  },
+  {
+    "pregunta": "¿Tienes wifi?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Me das la contraseña?",
+    "respuesta": "Claro"
+  },
+  {
+    "pregunta": "¿Funciona?",
+    "respuesta": "Sí, perfecto"
+  },
+  {
+    "pregunta": "¿Te quedas a cenar?",
+    "respuesta": "No, me tengo que ir"
+  },
+  {
+    "pregunta": "¿Ya te vas?",
+    "respuesta": "Sí, es tarde"
+  },
+  {
+    "pregunta": "¿Te acompaño?",
+    "respuesta": "No hace falta"
+  },
+  {
+    "pregunta": "Avísame cuando llegues",
+    "respuesta": "Vale"
+  },
+  {
+    "pregunta": "Con cuidado",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "Buenas",
+    "respuesta": "Buenas"
+  },
+  {
+    "pregunta": "¿Qué hay?",
+    "respuesta": "Poca cosa"
+  },
+  {
+    "pregunta": "¿Qué cuentas?",
+    "respuesta": "Nada nuevo"
+  },
+  {
+    "pregunta": "¿Todo igual?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "Bueno",
+    "respuesta": "Pues eso"
+  },
+  {
+    "pregunta": "Pues nada",
+    "respuesta": "Hablamos"
+  },
+  {
+    "pregunta": "Venga",
+    "respuesta": "Hasta ahora"
+  },
+  {
+    "pregunta": "Un saludo",
+    "respuesta": "Igualmente"
+  },
+  {
+    "pregunta": "Cuídate mucho",
+    "respuesta": "Tú también"
+  },
+  {
+    "pregunta": "¿Estás ahí?",
+    "respuesta": "Sí, dime"
+  },
+  {
+    "pregunta": "¿Me oyes?",
+    "respuesta": "Sí, te oigo"
+  },
+  {
+    "pregunta": "¿Se oye bien?",
+    "respuesta": "Sí, perfecto"
+  },
+  {
+    "pregunta": "¿Y ahora?",
+    "respuesta": "Ahora no"
+  },
+  {
+    "pregunta": "Se corta",
+    "respuesta": "No te oigo"
+  },
+  {
+    "pregunta": "Te vuelvo a llamar",
+    "respuesta": "Vale"
+  },
+  {
+    "pregunta": "¿Ahora mejor?",
+    "respuesta": "Sí, mucho mejor"
+  },
+  {
+    "pregunta": "¿Qué decías?",
+    "respuesta": "Nada, ya se me ha olvidado"
+  },
+  {
+    "pregunta": "No importa",
+    "respuesta": "Vale"
+  },
+  {
+    "pregunta": "Lo siento",
+    "respuesta": "No te preocupes"
+  },
+  {
+    "pregunta": "Fue culpa mía",
+    "respuesta": "No"
+  },
+  {
+    "pregunta": "Te perdono",
+    "respuesta": "Gracias"
+  },
+  {
+    "pregunta": "No volverá a pasar",
+    "respuesta": "Eso espero"
+  },
+  {
+    "pregunta": "¿Estás llorando?",
+    "respuesta": "No"
+  },
+  {
+    "pregunta": "¿Seguro?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "Te conozco",
+    "respuesta": "Estoy bien"
+  },
+  {
+    "pregunta": "Si me necesitas, llámame",
+    "respuesta": "Lo haré"
+  },
+  {
+    "pregunta": "Un abrazo",
+    "respuesta": "Otro"
+  },
+  {
+    "pregunta": "Felicidades",
+    "respuesta": "Gracias"
+  },
+  {
+    "pregunta": "Enhorabuena",
+    "respuesta": "Muchas gracias"
+  },
+  {
+    "pregunta": "Te lo mereces",
+    "respuesta": "Gracias"
+  },
+  {
+    "pregunta": "Estoy muy orgulloso de ti",
+    "respuesta": "Y yo de ti"
+  },
+  {
+    "pregunta": "Sigue así",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "Eres el mejor",
+    "respuesta": "No digas tonterías"
+  },
+  {
+    "pregunta": "Lo digo en serio",
+    "respuesta": "Gracias"
+  },
+  {
+    "pregunta": "¿Qué celebramos?",
+    "respuesta": "La vida"
+  },
+  {
+    "pregunta": "¡Salud!",
+    "respuesta": "¡Por nosotros!"
+  },
+  {
+    "pregunta": "Lo siento mucho",
+    "respuesta": "Gracias"
+  },
+  {
+    "pregunta": "Mi más sentido pésame",
+    "respuesta": "Gracias"
+  },
+  {
+    "pregunta": "Te acompaño en el sentimiento",
+    "respuesta": "Gracias"
+  },
+  {
+    "pregunta": "Si necesitas cualquier cosa",
+    "respuesta": "Lo sé"
+  },
+  {
+    "pregunta": "Mucho ánimo",
+    "respuesta": "Gracias"
+  },
+  {
+    "pregunta": "Un abrazo muy fuerte",
+    "respuesta": "Gracias"
+  },
+  {
+    "pregunta": "¿Estás mejor?",
+    "respuesta": "Poco a poco"
+  },
+  {
+    "pregunta": "El tiempo lo cura todo",
+    "respuesta": "Eso dicen"
+  },
+  {
+    "pregunta": "La vida sigue",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "Eres muy fuerte",
+    "respuesta": "Gracias"
+  },
+  {
+    "pregunta": "Saldrás de esta",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "Confío en ti",
+    "respuesta": "Gracias"
+  },
+  {
+    "pregunta": "No estás solo",
+    "respuesta": "Lo sé"
+  },
+  {
+    "pregunta": "Estoy aquí para lo que necesites",
+    "respuesta": "Gracias"
+  },
+  {
+    "pregunta": "Te quiero mucho",
+    "respuesta": "Y yo a ti"
+  },
+  {
+    "pregunta": "¿Qué tal el médico?",
+    "respuesta": "Bien"
+  },
+  {
+    "pregunta": "¿Qué te ha dicho?",
+    "respuesta": "Que está todo bien"
+  },
+  {
+    "pregunta": "¿Te ha mandado pruebas?",
+    "respuesta": "No"
+  },
+  {
+    "pregunta": "Me alegro mucho",
+    "respuesta": "Y yo"
+  },
+  {
+    "pregunta": "Vaya susto",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "Ahora a cuidarse",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Has comprado lotería?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Y si nos toca?",
+    "respuesta": "¡Imagínate!"
+  },
+  {
+    "pregunta": "¿Qué harías?",
+    "respuesta": "Dejar de trabajar"
+  },
+  {
+    "pregunta": "¿Y tú?",
+    "respuesta": "Lo mismo"
+  },
+  {
+    "pregunta": "Soñar es gratis",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Tienes un décimo?",
+    "respuesta": "Sí, aquí"
+  },
+  {
+    "pregunta": "¿Me lo guardas?",
+    "respuesta": "Vale"
+  },
+  {
+    "pregunta": "¿Crees que tocará?",
+    "respuesta": "Ojalá"
+  },
+  {
+    "pregunta": "¿Lo miramos?",
+    "respuesta": "No, da mala suerte"
+  },
+  {
+    "pregunta": "¿Has visto el tiempo?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Qué dan para mañana?",
+    "respuesta": "Lluvia"
+  },
+  {
+    "pregunta": "Vaya",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Cogemos el paraguas?",
+    "respuesta": "Sí, por si acaso"
+  },
+  {
+    "pregunta": "Odio la lluvia",
+    "respuesta": "Yo también"
+  },
+  {
+    "pregunta": "Prefiero el sol",
+    "respuesta": "Y yo"
+  },
+  {
+    "pregunta": "¿Hacemos un viaje?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿A dónde?",
+    "respuesta": "A la playa"
+  },
+  {
+    "pregunta": "¿Este fin de semana?",
+    "respuesta": "Vale"
+  },
+  {
+    "pregunta": "¿Miro un hotel?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Has encontrado algo?",
+    "respuesta": "Sí, uno muy chulo"
+  },
+  {
+    "pregunta": "¿Es caro?",
+    "respuesta": "No mucho"
+  },
+  {
+    "pregunta": "¿Lo reservo?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¡Qué ganas!",
+    "respuesta": "¡Y yo!"
+  },
+  {
+    "pregunta": "¿Hacemos la maleta?",
+    "respuesta": "Sí"
+  },
+  {
+    "pregunta": "¿Qué me llevo?",
+    "respuesta": "Bañador y poco más"
+  },
+  {
+    "pregunta": "¿Nos vamos ya?",
+    "respuesta": "Sí, vámonos"
+  },
+  {
+    "pregunta": "Hola, ¿qué tal el día? Te llamaba para saber si te apetece que quedemos este sábado para cenar y así nos ponemos un poco al día, que hace mucho que no nos vemos.",
+    "respuesta": "¡Hola! Pues me parece una idea fantástica, la verdad. Este sábado lo tengo libre, así que cuenta conmigo. ¿Has pensado en algún sitio en concreto o miramos algo juntos?"
+  },
+  {
+    "pregunta": "Hola, buenos días. Disculpa la molestia, ¿tendrías un momento para ayudarme con esta hoja de cálculo? No consigo que la fórmula funcione y sé que tú controlas mucho de esto.",
+    "respuesta": "Buenos días. Claro, no te preocupes. Acércate a mi mesa cuando quieras y le echamos un vistazo. Seguramente es alguna tontería con los paréntesis o el formato de las celdas."
+  },
+  {
+    "pregunta": "Hola, ¿cómo estás? Te escribo porque he visto que han sacado entradas para el concierto de ese grupo que tanto nos gusta y quería saber si te animas a que compremos un par.",
+    "respuesta": "¡Hola! ¡Qué buena noticia! Por supuesto que me animo, no me lo pierdo por nada del mundo. Míralo tú si quieres y cómpralas, luego me dices cuánto es y te hago un Bizum al momento."
+  },
+  {
+    "pregunta": "Hola, perdona que te escriba a estas horas. Se me acaba de ocurrir que podríamos hacer una escapada rural el próximo puente. ¿Qué te parece la idea?",
+    "respuesta": "Hola, no te preocupes por la hora. ¡Pues me parece un planazo! Justo estaba pensando que necesitaba desconectar. Podemos mirar alguna casa rural por la sierra que admita perros."
+  },
+  {
+    "pregunta": "Hola, ¿qué tal todo? Oye, me preguntaba si por casualidad te acuerdas de la receta de tarta de queso que hizo tu madre en tu cumpleaños. Estaba increíble y me gustaría intentar hacerla.",
+    "respuesta": "¡Hola! Pues muy bien, gracias. Claro que me acuerdo, de hecho, se la pedí el otro día. Te busco la foto que le hice a la receta y te la paso ahora mismo por WhatsApp. Ya verás qué fácil es."
+  },
+  {
+    "pregunta": "Hola, buenos días. Te llamaba para confirmar la reunión de mañana a las 10:00. ¿Sigue en pie? Era para organizar mi agenda del día.",
+    "respuesta": "Buenos días. Sí, por supuesto, la reunión sigue confirmada para mañana a las 10:00 en la sala de juntas. No te preocupes, si hubiera algún cambio te avisaría con tiempo."
+  },
+  {
+    "pregunta": "Hola, ¿cómo va la tarde? Te escribo para comentarte que ya he terminado mi parte del proyecto. Te la he enviado por correo para que la revises cuando tengas un hueco.",
+    "respuesta": "Hola, muy bien, gracias. Genial, ya he visto el correo. Le echo un vistazo esta misma tarde y mañana a primera hora te doy mi feedback para que podamos unificarlo todo."
+  },
+  {
+    "pregunta": "Hola, ¿qué tal? Quería preguntarte si al final vas a necesitar el coche este fin de semana. Si no lo vas a usar, me vendría genial para ir a visitar a mis padres.",
+    "respuesta": "Hola. Pues mira, en principio no tenía pensado usarlo, así que puedes cogerlo sin problema. Las llaves están en el cuenco de la entrada, como siempre. Solo acuérdate de dejarle algo de gasolina."
+  },
+  {
+    "pregunta": "Hola, buenas tardes. ¿Recuerdas que el otro día estuvimos hablando de series? Me recomendaste una de misterio que estaba en Netflix pero no consigo acordarme del título.",
+    "respuesta": "Buenas tardes. Sí, claro que me acuerdo. Se llama 'El inocente', está basada en un libro de Harlan Coben. Te va a enganchar desde el primer capítulo, ya me contarás qué te parece."
+  },
+  {
+    "pregunta": "Hola, ¿qué tal estás? Te vi el otro día por el centro pero ibas con prisa y no quise decirte nada. ¿Todo bien por el trabajo nuevo?",
+    "respuesta": "¡Hola! ¡Qué pena que no me dijeras nada! Pues sí, voy siempre corriendo. El trabajo muy bien, estoy muy contenta aunque es un poco estresante al principio. Tenemos que quedar un día con calma."
+  },
+  {
+    "pregunta": "Hola, ¿cómo lo llevas? Quería pedirte un favor. ¿Te importaría regarme las plantas la semana que viene? Estaré fuera de martes a domingo y me da miedo que se mueran.",
+    "respuesta": "Hola. Claro, sin ningún problema. Déjame una copia de tus llaves y me paso un par de veces a mitad de semana para regarlas. Tú no te preocupes y disfruta del viaje."
+  },
+  {
+    "pregunta": "Hola, buenos días. ¿Has tenido tiempo de mirar el presupuesto que te envié para la reforma de la cocina? Era para saber si te encaja o si tenemos que ajustar alguna partida.",
+    "respuesta": "Buenos días. Sí, lo estuve viendo ayer con mi pareja. En general nos parece bien, pero nos gustaría saber si se podría cambiar el material de la encimera por uno un poco más económico."
+  },
+  {
+    "pregunta": "Hola, ¿qué tal? Te escribo porque estoy organizando una fiesta sorpresa para el cumpleaños de María y me gustaría que vinieras. Será el sábado 23 en mi casa sobre las nueve.",
+    "respuesta": "¡Hola! ¡Qué buena idea! Claro que voy, no me lo pierdo. Muchas gracias por avisarme. ¿Necesitas ayuda con algo? Puedo encargarme de la tarta o de comprar la bebida."
+  },
+  {
+    "pregunta": "Hola, disculpa la pregunta, pero he visto en Instagram las fotos de tu último viaje a Portugal y me ha encantado. ¿Me podrías recomendar algún sitio para comer en Lisboa?",
+    "respuesta": "Hola, ¡qué va, ninguna molestia! Pues mira, tienes que ir a un sitio que se llama 'Time Out Market', es un mercado con un montón de puestos de comida buenísima. Y para pasteles de nata, los mejores están en Belém."
+  },
+  {
+    "pregunta": "Hola, ¿cómo estás? Te llamo porque estoy en el supermercado y no me acuerdo de qué marca de tomate frito era la que te gustaba. ¿Era la de estilo casero?",
+    "respuesta": "Hola, qué bien que me llamas. Sí, esa misma, la que tiene el envase de cristal. Coge un par de botes, por favor, que así ya tenemos para toda la semana. ¡Muchas gracias!"
+  },
+  {
+    "pregunta": "Hola, buenas tardes. ¿Te llegó el paquete que te envié el lunes? Según la empresa de mensajería debería haber llegado ayer, pero quería confirmarlo contigo.",
+    "respuesta": "Buenas tardes. Sí, me llegó ayer a mediodía, justo cuando estaba comiendo. Todo perfecto, muchas gracias por enviármelo tan rápido. Ya lo he estado probando y funciona de maravilla."
+  },
+  {
+    "pregunta": "Hola, ¿qué tal? Quería saber si al final os vais de vacaciones en agosto o si estaréis por aquí. Lo digo por si nos podemos organizar para veros.",
+    "respuesta": "Hola. Pues al final nos quedamos aquí en agosto, que hay menos gente en todas partes y se está más tranquilo. Así que cuando queráis nos vemos, que ya hay ganas."
+  },
+  {
+    "pregunta": "Hola, buenos días. ¿Has visto el correo del jefe sobre la nueva organización de los equipos? No entiendo muy bien a qué departamento me han asignado ahora.",
+    "respuesta": "Buenos días. Sí, lo acabo de leer y es un poco lioso. Por lo que he entendido, tú y yo ahora dependemos del departamento de marketing digital. Si quieres luego lo comentamos con más calma."
+  },
+  {
+    "pregunta": "Hola, ¿qué tal el fin de semana? Oye, el otro día me comentaste que habías ido a un fisioterapeuta muy bueno por el barrio, ¿me podrías pasar el contacto? Tengo la espalda fatal.",
+    "respuesta": "Hola, muy bien, gracias. Sí, claro, ahora mismo te busco el número y te lo paso. Se llama Carlos y la clínica está en la calle de al lado del mercado. Ya verás cómo te deja como nuevo."
+  },
+  {
+    "pregunta": "Hola, ¿cómo va todo? Te escribo para preguntarte si sabes de alguna aplicación buena para editar vídeos desde el móvil. Quiero hacer un montaje con los vídeos de las vacaciones.",
+    "respuesta": "Hola. Pues mira, yo suelo usar una que se llama InShot, es muy fácil de usar y tiene un montón de opciones. Y si quieres algo un poco más profesional, puedes probar CapCut. Las dos son gratis."
+  },
+  {
+    "pregunta": "Hola. ¿Qué tal estás? Quería darte las gracias por recomendarme la película del otro día. La vimos anoche y nos encantó a todos, fue un acierto total.",
+    "respuesta": "¡Hola! ¿A que sí? Sabía que os iba a gustar. Me alegro mucho de que la disfrutarais. Si quieres otra recomendación para el próximo fin de semana, tengo unas cuantas en la lista."
+  },
+  {
+    "pregunta": "Hola, buenos días. Te llamaba para saber si habéis recibido la factura correspondiente a este mes. La envié la semana pasada, pero con los festivos no sé si habrá llegado bien.",
+    "respuesta": "Buenos días. Pues ahora mismo no te sé decir, tendría que mirarlo en el programa de contabilidad. Dame un par de horas y te lo confirmo por correo electrónico sin falta."
+  },
+  {
+    "pregunta": "Hola, ¿estás ocupado? Es solo un segundo. Quería saber si esta tarde, después de trabajar, te apetece que vayamos a tomar una cerveza para desconectar un poco de la semana.",
+    "respuesta": "Hola. Pues me parece una idea perfecta, que hoy ha sido un día intenso. A la hora de salir me paso por tu sitio y vamos al bar de la esquina, ¿te parece?"
+  },
+  {
+    "pregunta": "Hola, ¿qué tal? El otro día vi que pusiste en venta la cuna de tu hijo. ¿Todavía la tienes disponible? Una amiga mía está embarazada y podría interesarle.",
+    "respuesta": "Hola. Pues sí, todavía la tengo. La desmonté y la guardé en el trastero, está prácticamente nueva. Si tu amiga quiere verla sin compromiso, que me lo diga y quedamos un día."
+  },
+  {
+    "pregunta": "Hola, ¿cómo estás? Te escribo para desearte mucha suerte en la entrevista de trabajo de esta tarde. ¡Seguro que te va genial, ya verás! Avísame cuando salgas.",
+    "respuesta": "¡Hola! Muchísimas gracias por acordarte, de verdad. Estoy un poco nervioso, pero voy con ganas. En cuanto salga te escribo y te cuento qué tal ha ido todo. ¡Un abrazo!"
+  },
+  {
+    "pregunta": "Hola. Tengo una duda sobre el viaje que estamos organizando. ¿Crees que es mejor alquilar un coche para movernos por allí o depender del transporte público?",
+    "respuesta": "Hola. Pues yo creo que lo mejor es alquilar un coche. Nos dará mucha más libertad para movernos a nuestro aire y visitar pueblos que no están tan bien comunicados. Aunque sea un poco más caro, creo que merece la pena."
+  },
+  {
+    "pregunta": "Hola, buenos días. ¿Sabes si hoy en la oficina hay algún tipo de evento o celebración? Lo digo porque veo a todo el mundo más arreglado de lo normal y no sé si me he perdido algo.",
+    "respuesta": "Buenos días. Sí, es que hoy vienen los directivos de la sede central de visita y por la tarde hay una pequeña presentación de resultados en el salón de actos. Pero no te preocupes, no es nada importante."
+  },
+  {
+    "pregunta": "Hola, ¿qué tal tu primer día de vuelta de las vacaciones? Espero que no se te esté haciendo muy duro. Quería preguntarte si me has podido traer el imán para la nevera que te pedí.",
+    "respuesta": "Hola. Pues imagínate, con una depresión postvacacional terrible. Pero sí, por supuesto que me he acordado de tu imán. Lo tengo en el bolso, luego cuando nos veamos te lo doy."
+  },
+  {
+    "pregunta": "Hola, perdona el atrevimiento. Soy el vecino del tercero y es que se me ha ido la luz en casa. ¿A ti te funciona todo bien o es un apagón general del edificio?",
+    "respuesta": "Hola, vecino, qué va, ningún atrevimiento. Pues yo sí que tengo luz, así que debe de ser algo de tu piso. A lo mejor te ha saltado el diferencial. ¿Quieres que baje y le echamos un vistazo?"
+  },
+  {
+    "pregunta": "Hola, ¿cómo estás? Hace tiempo que no sé nada de ti. Te escribía para saber si te animarías a apuntarte conmigo a clases de pádel. He visto que hay un curso de iniciación cerca de casa.",
+    "respuesta": "¡Hola! Pues siempre lo he tenido en mente pero nunca me he animado. Si es un curso de iniciación y vas tú, me apunto de cabeza. Así hacemos algo de deporte y nos vemos más a menudo."
+  },
+  {
+    "pregunta": "Hola, ¿te pillo en mal momento? Solo quería comentarte que el próximo martes es el cumpleaños de mi hija pequeña y vamos a hacer una pequeña merienda en el parque. Estáis invitados, por supuesto.",
+    "respuesta": "Hola, qué va, dime. ¡Muchas gracias por la invitación! Claro que iremos, a mi hijo le hará mucha ilusión. Apúntanos. ¿Le compramos algo entre varios o cada uno por su cuenta?"
+  },
+  {
+    "pregunta": "Hola, buenos días. Te escribo porque tengo un problema con el pedido que realicé la semana pasada. Me ha llegado una talla que no es la que yo había solicitado en la web.",
+    "respuesta": "Buenos días. Lamentamos mucho el error. Por favor, indíqueme su número de pedido y procederemos a enviarle la talla correcta sin ningún coste adicional. Puede quedarse con la prenda equivocada como compensación."
+  },
+  {
+    "pregunta": "Hola, ¿qué tal por el pueblo? Te llamaba para decirte que este fin de semana al final sí que vamos a poder ir a veros. Saldremos el viernes después de trabajar.",
+    "respuesta": "¡Hola, hijo! ¡Qué alegría me das! Pues aquí estamos muy bien, deseando veros. Os prepararé unas migas para comer el sábado. Conducid con cuidado y sin prisas, ¿vale?"
+  },
+  {
+    "pregunta": "Hola, ¿has visto qué día hace hoy? Ha salido un sol increíble. ¿Te animas a que cojamos las bicis después de comer y demos una vuelta por el carril bici del río?",
+    "respuesta": "Hola. Sí, la verdad es que el día está perfecto para hacer algo al aire libre. Me apunto a lo de las bicis, así estiramos un poco las piernas. A eso de las cinco estoy listo."
+  },
+  {
+    "pregunta": "Hola. Estoy intentando montar el mueble que compramos el otro día y no hay manera de entender las instrucciones. ¿Tú crees que podrías echarme una mano esta tarde?",
+    "respuesta": "Hola. No te preocupes, esas instrucciones parecen escritas en otro idioma. En cuanto termine de hacer un par de recados me paso por tu casa y lo montamos entre los dos en un momento."
+  },
+  {
+    "pregunta": "Hola, ¿qué tal? Quería hacerte una consulta. Estoy pensando en cambiar de móvil y como sé que tú entiendes de tecnología, quería saber cuál me recomendarías que no fuera excesivamente caro.",
+    "respuesta": "Hola. Pues mira, ahora mismo en relación calidad-precio, los móviles de Xiaomi o de Realme están saliendo muy buenos. Tienen buenas cámaras y baterías que duran mucho por menos de 300 euros."
+  },
+  {
+    "pregunta": "Hola, buenos días. ¿Te acuerdas de que me comentaste que tu primo trabajaba en una agencia de viajes? Quería saber si me podrías facilitar su contacto para pedirle presupuesto para un viaje a Egipto.",
+    "respuesta": "Buenos días. Sí, claro. Ahora mismo le pido permiso para darte su número de teléfono y te lo paso. Dile que vas de mi parte, seguro que te hace un buen precio."
+  },
+  {
+    "pregunta": "Hola, ¿cómo ha ido la reunión con el tutor de la niña? Espero que todo hayan sido buenas noticias. Ya me contarás con calma cuando llegues a casa.",
+    "respuesta": "Hola, cariño. Pues muy bien, la verdad. Nos ha dicho que es muy buena estudiante y que participa mucho en clase, pero que a veces se distrae un poco. Nada importante, vamos."
+  },
+  {
+    "pregunta": "Hola, ¿sigues buscando a alguien para compartir piso? Te lo digo porque un compañero de trabajo se acaba de mudar a la ciudad y está buscando una habitación urgentemente.",
+    "respuesta": "¡Hola! Pues sí, todavía tengo la habitación libre. ¡Qué casualidad! Dile a tu compañero que me llame si quiere y podemos quedar esta misma tarde para que vea el piso y nos conozcamos."
+  },
+  {
+    "pregunta": "Hola, buenas. Te escribo en nombre de la comunidad de vecinos. Quería informarte de que el próximo jueves por la mañana cortarán el agua de 9 a 12 para arreglar una avería.",
+    "respuesta": "Hola, buenas. Ah, perfecto, muchas gracias por el aviso. Lo tendré en cuenta para organizarme ese día y coger agua antes de que la corten. Se agradece la información."
+  },
+  {
+    "pregunta": "Hola, ¿qué tal todo? Oye, me acabo de acordar de que tengo dos entradas para el monólogo de este viernes y al final no vamos a poder ir. ¿Os interesarían a vosotros?",
+    "respuesta": "¡Hola! ¿En serio? ¡Pues claro que nos interesan! Justo habíamos mirado para ir pero ya no quedaban entradas. Dime cuánto es y te lo pago ahora mismo. ¡Nos has salvado el plan del viernes!"
+  },
+  {
+    "pregunta": "Hola, ¿qué tal el catarro? ¿Te encuentras un poco mejor? Te he preparado un caldo de pollo casero. Si quieres, bajo en un rato y te dejo un tupper en la puerta.",
+    "respuesta": "Hola. Pues un poco mejor, pero todavía con mucha congestión. Eres un sol, no te tenías que haber molestado. Te lo agradezco un montón, un caldo calentito me va a venir de perlas."
+  },
+  {
+    "pregunta": "Hola, buenos días. Te llamaba para pedirte disculpas por el ruido de anoche. Estuvimos celebrando un cumpleaños y a lo mejor se nos fue un poco de las manos. Espero no haberte molestado mucho.",
+    "respuesta": "Buenos días. Ah, no te preocupes, la verdad es que ni me enteré, tengo el sueño muy profundo. Pero se agradece mucho el detalle de que avises. Espero que lo pasarais muy bien."
+  },
+  {
+    "pregunta": "Hola, ¿cómo va el día? Estoy en la tienda de bricolaje y no estoy seguro de qué tipo de taco tengo que comprar para colgar el cuadro en la pared de pladur. ¿Tú sabes cuál es?",
+    "respuesta": "Hola. Tienes que comprar unos tacos específicos para pladur, suelen ser de metal y se abren como un paraguas por detrás para hacer fuerza. Pídeselos a cualquier dependiente, sabrán cuáles son."
+  },
+  {
+    "pregunta": "Hola, ¿qué tal? Quería preguntarte qué tal fue tu experiencia con la compañía eléctrica nueva que contrataste. Estoy pensando en cambiarme porque la mía me parece muy cara.",
+    "respuesta": "Hola. Pues la verdad es que estoy muy contento. El cambio fue muy fácil y he notado un ahorro bastante considerable en la factura de la luz. Te la recomiendo sin duda."
+  },
+  {
+    "pregunta": "Hola, ¿tienes un minuto? Es que me acaba de llegar una multa de tráfico por exceso de velocidad, pero yo no recuerdo haber pasado por esa zona. ¿Crees que se puede recurrir?",
+    "respuesta": "Hola. Sí, claro que se puede recurrir. Primero comprueba que la matrícula del coche de la foto es la tuya. Si lo es, puedes alegar que el radar no estaba bien señalizado o solicitar el certificado de calibración."
+  },
+  {
+    "pregunta": "Hola, buenos días. Le escribo porque estoy muy interesado en el puesto de administrativo que han publicado en su página web. Le adjunto mi currículum para su consideración.",
+    "respuesta": "Buenos días. Muchas gracias por su interés. Hemos recibido correctamente su currículum y lo incluiremos en el proceso de selección. Nos pondremos en contacto con usted si su perfil se ajusta a lo que buscamos."
+  },
+  {
+    "pregunta": "Hola, ¿qué tal la tarde? Te escribo para ver si me puedes guardar el secreto. ¡Estoy embarazada! Todavía no quiero decirlo a todo el mundo, pero a ti te lo tenía que contar.",
+    "respuesta": "¡Hola! ¡Pero qué notición! ¡Enhorabuena! No te preocupes, soy una tumba, no diré nada. ¡Qué ilusión más grande! Me alegro muchísimo por vosotros, de verdad."
+  },
+  {
+    "pregunta": "Hola. Sé que es un poco precipitado, pero unos amigos me acaban de cancelar el plan para esta noche. ¿Os apetecería venir a casa a cenar pizza y ver una película?",
+    "respuesta": "Hola. Pues no teníamos ningún plan, así que nos apetece un montón. ¡Claro que vamos! ¿Llevamos algo? Podemos pasar a por el postre o una botella de vino."
+  },
+  {
+    "pregunta": "Hola, ¿qué tal? ¿Has conseguido ya las entradas para el parque de atracciones? Lo digo porque si no, he visto una oferta de dos por uno si las compras online antes del viernes.",
+    "respuesta": "Hola. Pues no, todavía no las había comprado, así que me vienes de perlas. Pásame el enlace de la oferta y las compro yo ahora mismo para los cuatro. ¡Muchas gracias por el aviso!"
+  },
+  {
+    "pregunta": "Hola. Estoy haciendo la declaración de la renta y tengo una duda. ¿Sabes si el dinero que he invertido en la reforma de la casa se puede desgravar de alguna manera?",
+    "respuesta": "Hola. Pues creo que sí, hay una deducción por obras de mejora de la eficiencia energética. Pero es un tema complicado, lo mejor es que se lo consultes a un gestor para asegurarte bien."
+  },
+  {
+    "pregunta": "Hola, ¿qué tal? Te escribo para decirte que he adoptado un gatito. Es súper pequeño y juguetón. Quería saber si te apetecería pasarte esta tarde a conocerlo.",
+    "respuesta": "¡Hola! ¡Pero qué bien! ¡Con lo que me gustan los gatos! Claro que me paso, me muero de ganas de verlo. Voy a pasar por una tienda a comprarle algún juguete."
+  },
+  {
+    "pregunta": "Hola, buenos días. ¿Qué tal el fin de semana? Te quería preguntar si por un casual tienes una escalera de mano que me puedas prestar. Necesito cambiar una bombilla del techo y no llego.",
+    "respuesta": "Buenos días. Muy bien, gracias. Sí, claro, tengo una en el trastero. Si quieres baja luego a por ella, pero ten cuidado al usarla, que es un poco vieja."
+  },
+  {
+    "pregunta": "Hola, ¿estás viendo el partido? ¡Qué partidazo estamos haciendo! Si seguimos así, ganamos la liga seguro. ¿Crees que el entrenador debería hacer algún cambio?",
+    "respuesta": "¡Hola! ¡Sí, aquí estoy sufriendo! Vamos genial, pero yo quitaría al delantero que tiene tarjeta amarilla, no vaya a ser que nos quedemos con diez. ¡Ojalá ganemos!"
+  },
+  {
+    "pregunta": "Hola. Me ha surgido un imprevisto y no voy a poder ir a recoger a los niños al colegio. ¿Te vendría muy mal a ti recoger a la mía también? Ya luego me paso a por ella.",
+    "respuesta": "Hola. No te preocupes, claro que sí. Yo recojo a los tres y nos vamos al parque un rato hasta que tú puedas venir. Tú atiende ese imprevisto sin agobios."
+  },
+  {
+    "pregunta": "Hola. Te llamaba para darte la enhorabuena por el ascenso. Me lo ha contado Laura. ¡Te lo mereces más que nadie! Tenemos que celebrarlo este fin de semana.",
+    "respuesta": "¡Hola! Muchísimas gracias, de verdad. Estoy súper contento. Y por supuesto que tenemos que celebrarlo, este viernes os invito a todos a unas cervezas después de trabajar."
+  },
+  {
+    "pregunta": "Hola, ¿qué tal el día de fiesta? Yo estoy aprovechando para hacer limpieza general en casa. Oye, ¿tú sabes algún truco para quitar las manchas de cal de la mampara de la ducha?",
+    "respuesta": "Hola. Pues lo mejor para eso es mezclar vinagre blanco de limpieza con agua a partes iguales en un pulverizador. Lo dejas actuar unos minutos y luego lo frotas con una bayeta. Sale sin esfuerzo."
+  },
+  {
+    "pregunta": "Hola, ¿cómo estás? Te he visto etiquetado en una foto de la carrera popular del domingo. ¡No sabía que corrías! ¿Qué tal te fue? ¿Hiciste buena marca?",
+    "respuesta": "¡Hola! Sí, llevo unos meses entrenando. Pues la verdad es que muy contento, la terminé, que ya es mucho. Hice un tiempo de 55 minutos en los 10 kilómetros, que para ser la primera vez no está mal."
+  },
+  {
+    "pregunta": "Hola, buenos días. ¿Has tenido oportunidad de hablar con el cliente sobre la propuesta que le enviamos? Es para saber si tenemos que empezar a trabajar en ella o si tienen alguna duda.",
+    "respuesta": "Buenos días. Sí, hablé con él ayer por la tarde. Me dijo que le parecía todo perfecto y que le diéramos para adelante. Así que podemos empezar a organizar el equipo para arrancar el lunes."
+  },
+  {
+    "pregunta": "Hola. Estoy buscando un regalo para el cumpleaños de mi padre y no se me ocurre nada. Como tú le conoces bien, ¿se te ocurre algo que le pueda hacer ilusión?",
+    "respuesta": "Hola. Pues el otro día me comentó que le gustaría tener un lector de libros electrónicos para no tener que cargar con los libros. A lo mejor ese podría ser un buen regalo."
+  },
+  {
+    "pregunta": "Hola, ¿qué tal las vacaciones por el norte? He visto las fotos y los paisajes son increíbles. ¿Hace mucho frío por allí como para llevar chaqueta por la noche?",
+    "respuesta": "Hola. Pues increíble, nos está encantando. Por el día hace bueno, pero por la noche refresca bastante, así que sí, tráete una chaqueta o una sudadera porque la vas a necesitar seguro."
+  },
+  {
+    "pregunta": "Hola. Acabo de ver en las noticias que ha habido un accidente bastante grande en la autovía por la que vienes del trabajo. ¿Estás bien? ¿Te ha pillado el atasco?",
+    "respuesta": "Hola, cariño. Sí, estoy bien, no te preocupes. He salido un poco antes del trabajo y justo he pasado antes de que cortaran la carretera. Pero gracias por preocuparte."
+  },
+  {
+    "pregunta": "Hola, ¿cómo estás? Te escribo para comentarte que este año me ha tocado organizar la cena de Navidad de los amigos. He pensado en un restaurante italiano que está muy bien de precio. ¿Te parece bien?",
+    "respuesta": "¡Hola! ¡Qué bien que te encargues tú este año! Por mí perfecto, me encanta la comida italiana. Pasa el nombre del sitio y le echo un vistazo al menú. ¡Gracias por organizarlo!"
+  },
+  {
+    "pregunta": "Hola, buenas. Estoy buscando un libro para un niño de 10 años al que le encanta la aventura. ¿Me podría recomendar alguno que esté bien para su edad?",
+    "respuesta": "Hola, buenas. Pues para esa edad le podría gustar mucho la saga de 'Percy Jackson y los dioses del Olimpo'. También los libros de Geronimo Stilton son un acierto seguro. Si no, algo de Julio Verne nunca falla."
+  },
+  {
+    "pregunta": "Hola, ¿qué tal? Quería saber si tienes algún plan para la tarde de Nochevieja. Había pensado que podríamos quedar para tomar algo y despedir el año antes de las cenas familiares.",
+    "respuesta": "Hola. Pues no había pensado nada, pero me parece un plan genial. Podemos quedar sobre las siete en el bar de siempre y nos tomamos la última del año. Me apunto."
+  },
+  {
+    "pregunta": "Hola. Estoy intentando comprar unos billetes de tren por internet pero la página me da error todo el rato. ¿A ti te funciona bien o es un problema general de la web?",
+    "respuesta": "Hola. Pues espera que lo pruebo. Sí, a mí también me está dando error al intentar buscar un trayecto. Debe de ser que tienen la página caída. Habrá que intentarlo más tarde."
+  },
+  {
+    "pregunta": "Hola, ¿cómo lo llevas? Quería pedirte un gran favor. Me han invitado a una boda de día y no tengo ni idea de qué ponerme. ¿Me acompañarías una tarde de compras para que me asesores?",
+    "respuesta": "Hola. ¡Claro que sí! Me encanta ir de compras. Si quieres, podemos quedar el jueves al salir de trabajar y damos una vuelta por las tiendas del centro. Ya verás cómo encontramos algo que te quede genial."
+  },
+  {
+    "pregunta": "Hola, buenos días. ¿Sería tan amable de decirme cómo puedo llegar al hospital desde aquí? Es que no soy de la ciudad y estoy un poco perdido con el transporte público.",
+    "respuesta": "Buenos días. Por supuesto. Lo más fácil es que coja el autobús número 5, que para justo en esa esquina. Le dejará en la misma puerta del hospital en unos quince minutos."
+  },
+  {
+    "pregunta": "Hola, ¿qué tal? Te escribo porque mi ordenador va súper lento últimamente y se queda pillado cada dos por tres. ¿Sabes de algún sitio de confianza donde lo pueda llevar a que le echen un vistazo?",
+    "respuesta": "Hola. Sí, claro. Hay una tienda de informática en la calle paralela a la mía que son muy majos y trabajan muy bien. Se llama PC-Soluciones. Llévaselo, seguro que te lo arreglan."
+  },
+  {
+    "pregunta": "Hola. El otro día tu hijo me dijo que le encantaría tener el nuevo juego de la Nintendo Switch por su cumpleaños. ¿Te parece bien si se lo compramos entre varios amigos?",
+    "respuesta": "Hola. ¡Pues me parece una idea genial! Así no nos volvemos locos buscando regalos y seguro que le hace muchísima ilusión. Yo me encargo de recoger el dinero y lo compro."
+  },
+  {
+    "pregunta": "Hola, ¿te pillo liado? Es que acabo de llegar a casa y huele muchísimo a gas en la escalera. ¿Tú también lo hueles? Es para saber si llamar a los bomberos.",
+    "respuesta": "Hola. Pues ahora que lo dices, sí que huele un poco raro. Mejor ser precavidos. Llama a la compañía del gas o a los bomberos y que vengan a revisarlo, no vaya a ser que haya una fuga."
+  },
+  {
+    "pregunta": "Hola, ¿cómo estás? Te vi el otro día en el supermercado pero no te quise molestar porque ibas con tus padres. ¿Están bien? Hacía mucho que no los veía.",
+    "respuesta": "¡Hola! Pues sí, ahí andan, con los achaques de la edad pero bien. Vinieron a pasar el día con nosotros. A la próxima dime algo, que les hará ilusión saludarte."
+  },
+  {
+    "pregunta": "Hola. Sé que es una pregunta un poco rara, pero ¿tú sabrías decirme si se necesita algún permiso especial para poder volar un dron en el parque que tenemos al lado de casa?",
+    "respuesta": "Hola. Pues no es ninguna pregunta rara. Por norma general, en los parques dentro de la ciudad está prohibido volar drones, a no ser que tengas un permiso específico. Es mejor que lo consultes en la web de AESA."
+  },
+  {
+    "pregunta": "Hola, buenos días. Estoy intentando hacer la matrícula para el curso de inglés, pero no encuentro la opción para pagar con tarjeta. ¿Solo se puede pagar por transferencia bancaria?",
+    "respuesta": "Buenos días. No, también se puede pagar con tarjeta. Cuando llegue a la pantalla de resumen del pedido, abajo a la derecha debería ver un botón que pone 'Pagar con tarjeta'. A veces tarda un poco en cargar."
+  },
+  {
+    "pregunta": "Hola. Acabo de ver el tiempo para el fin de semana y dan tormentas justo para el día de la barbacoa. ¿Qué hacemos? ¿La cancelamos o buscamos un plan alternativo a cubierto?",
+    "respuesta": "Hola. Vaya, qué mala suerte. Pues si quieres, podemos hacerla en mi casa. Tengo un porche cubierto bastante grande donde podemos poner la barbacoa y las mesas sin problema."
+  },
+  {
+    "pregunta": "Hola, ¿qué tal? Quería darte las gracias de nuevo por quedarte con el perro el fin de semana. Se ha portado bien, ¿verdad? Espero que no te haya dado mucha guerra.",
+    "respuesta": "¡Hola! Nada, hombre, un placer. Se ha portado de maravilla, es un perro súper bueno y cariñoso. Nos lo hemos pasado genial con él. Para la próxima vez que lo necesites, ya sabes."
+  },
+  {
+    "pregunta": "Hola, ¿qué tal el primer día de gimnasio? ¿Tienes muchas agujetas? Yo recuerdo que la primera semana apenas podía moverme. ¡Mucho ánimo!",
+    "respuesta": "Hola. Pues de momento bien, pero seguro que mañana me arrepiento de haber nacido. El monitor me ha puesto una tabla de ejercicios bastante suave para empezar. ¡Gracias por los ánimos!"
+  },
+  {
+    "pregunta": "Hola. El sábado es el aniversario de mis padres y quería reservarles una mesa en un restaurante bonito para que lo celebren. ¿Se te ocurre alguno que esté bien y que no sea excesivamente caro?",
+    "respuesta": "Hola. Pues hay un restaurante de comida mediterránea con un patio interior precioso que se llama 'El Jardín Secreto'. La comida está muy buena y de precio está genial. Seguro que les encanta."
+  },
+  {
+    "pregunta": "Hola, buenos días. ¿Ha salido ya la resolución de las becas? Es que he mirado en la página de la universidad pero no encuentro ninguna actualización desde el mes pasado.",
+    "respuesta": "Buenos días. No, todavía no se ha publicado el listado definitivo de admitidos. Estamos terminando de revisar las últimas solicitudes. Esperamos poder publicarlo a finales de esta semana."
+  },
+  {
+    "pregunta": "Hola. Estoy pensando en comprarme una freidora de aire, que todo el mundo habla maravillas de ellas. Tú que la tienes, ¿de verdad merece la pena? ¿Se nota mucho la diferencia con el horno?",
+    "respuesta": "Hola. Pues yo estoy encantado, la uso casi todos los días. Es mucho más rápida que el horno y gasta menos luz. Las patatas fritas no quedan exactamente igual que en aceite, pero sí muy parecidas y mucho más sanas."
+  },
+  {
+    "pregunta": "Hola. ¿Qué tal el viaje de vuelta? ¿Había mucho tráfico en la carretera? Nosotros estamos pensando en salir ahora, pero no sabemos si esperar un poco a que pase la hora punta.",
+    "respuesta": "Hola. Pues hemos tardado bastante, había un atasco monumental a la entrada de la ciudad. Yo si fuera vosotros, me esperaría un par de horas a que se calme un poco la cosa."
+  },
+  {
+    "pregunta": "Hola, cariño. Te llamo para decirte que voy a tardar un poco más en llegar a casa. Ha habido una avería en el metro y estamos parados en un túnel. No sé cuánto tardaremos en reanudar la marcha.",
+    "respuesta": "Hola, vida. Vaya, no te preocupes. Lo importante es que estés bien. Tú tranquilo, nosotros vamos cenando y te guardamos un plato. Avísame si sabes algo nuevo."
+  }
+]

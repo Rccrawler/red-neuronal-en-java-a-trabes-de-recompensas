@@ -1,0 +1,406 @@
+package org.example;
+
+import org.deeplearning4j.nn.conf.MultiLayerConfiguration;
+import org.deeplearning4j.nn.conf.NeuralNetConfiguration;
+import org.deeplearning4j.nn.conf.layers.DenseLayer;
+import org.deeplearning4j.nn.conf.layers.OutputLayer;
+import org.deeplearning4j.nn.multilayer.MultiLayerNetwork;
+import org.nd4j.linalg.activations.Activation;
+import org.nd4j.linalg.api.ndarray.INDArray;
+import org.nd4j.linalg.factory.Nd4j;
+import org.nd4j.linalg.learning.config.Adam;
+import org.nd4j.linalg.lossfunctions.LossFunctions;
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Random;
+
+public class ChatRLAgent {
+
+    // DICCIONARIO de Preguntas -> Respuestas correctas (se carga desde JSON)
+    private static final Map<String, String> RESPUESTAS_CORRECTAS = new HashMap<>();
+
+    // UNA NEURONA POR LETRA (26 letras del alfabeto)
+    private static final int ACTIONS = 15;
+    private static final int STATE_SIZE = 26;
+    private static final double GAMMA = 0.99;
+    private static final double EPSILON_DECAY = 0.995;
+    private static final double LEARNING_RATE = 0.001;
+
+    private double epsilon = 1.0;
+    private Random random = new Random();
+    private MultiLayerNetwork model;
+    private int totalAciertos = 0;
+    private int totalIntentosEntrenamiento = 0;
+    private Map<Integer, String> indiceARespuesta = new HashMap<>();
+    private Map<String, Integer> respuestaAIndice = new HashMap<>();
+
+    // Base de respuestas entrenadas
+    private String[] respuestasBase = {
+        "hola como estás",
+        "bien gracias",
+        "estoy muy bien",
+        "soy un chatbot",
+        "claro te ayudaré",
+        "no entiendo",
+        "puedo ayudarte",
+        "qué necesitas",
+        "gracias por preguntar",
+        "estoy aquí para ayudarte",
+        "buenos días que tal",
+        "buenas noches descansa",
+        "de nada para eso estoy",
+        "adiós hasta luego",
+        "me llamo chatbot"
+    };
+
+    public ChatRLAgent() {
+        // Crear mapeos bidireccionales
+        for (int i = 0; i < respuestasBase.length; i++) {
+            indiceARespuesta.put(i, respuestasBase[i]);
+            respuestaAIndice.put(respuestasBase[i], i);
+        }
+
+        // Red neuronal optimizada para 26 letras de entrada
+        MultiLayerConfiguration config = new NeuralNetConfiguration.Builder()
+                .updater(new Adam(LEARNING_RATE))
+                .list()
+                // Capa 1: 26 neuronas de entrada (una por letra) → 128 neuronas
+                .layer(new DenseLayer.Builder().nIn(STATE_SIZE).nOut(128)
+                        .activation(Activation.RELU).build())
+                // Capa 2: 128 neuronas → 64 neuronas
+                .layer(new DenseLayer.Builder().nOut(64)
+                        .activation(Activation.RELU).build())
+                // Capa 3: 64 neuronas → 32 neuronas
+                .layer(new DenseLayer.Builder().nOut(32)
+                        .activation(Activation.RELU).build())
+                // Capa de salida: 32 neuronas → 15 respuestas (SOFTMAX para probabilidades)
+                .layer(new OutputLayer.Builder(LossFunctions.LossFunction.MCXENT)
+                        .activation(Activation.SOFTMAX)
+                        .nOut(ACTIONS).build())
+                .build();
+
+        model = new MultiLayerNetwork(config);
+        model.init();
+    }
+
+    /**
+     * Carga las preguntas y respuestas desde un archivo JSON
+     */
+    public static void cargarDesdeJSON(String rutaArchivo) {
+        try {
+            String contenido = new String(Files.readAllBytes(Paths.get(rutaArchivo)));
+            JSONArray jsonArray = new JSONArray(contenido);
+
+            RESPUESTAS_CORRECTAS.clear();
+
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject obj = jsonArray.getJSONObject(i);
+                String pregunta = obj.getString("pregunta").toLowerCase();
+                String respuesta = obj.getString("respuesta").toLowerCase();
+                RESPUESTAS_CORRECTAS.put(pregunta, respuesta);
+            }
+
+            System.out.println("✅ Se cargaron " + RESPUESTAS_CORRECTAS.size() + " pares pregunta-respuesta desde JSON\n");
+
+        } catch (IOException e) {
+            System.err.println("❌ Error al leer el archivo JSON: " + e.getMessage());
+            System.exit(1);
+        }
+    }
+
+    /**
+     * Convierte una pregunta a vector: UNA NEURONA POR LETRA
+     */
+    private double[] preguntaAVector(String pregunta) {
+        double[] vector = new double[STATE_SIZE]; // 26 posiciones para a-z
+        pregunta = pregunta.toLowerCase().replaceAll("[^a-z]", "");
+
+        // Marca cada letra que aparece en la pregunta
+        for (char c : pregunta.toCharArray()) {
+            if (c >= 'a' && c <= 'z') {
+                int indice = c - 'a';
+                vector[indice] = 1.0; // Neurona activada (letra presente)
+            }
+        }
+
+        return vector;
+    }
+
+    /**
+     * Selecciona una respuesta basada en la pregunta
+     */
+    public String selectResponse(String pregunta) {
+        if (random.nextDouble() < epsilon) {
+            return respuestasBase[random.nextInt(respuestasBase.length)];
+        }
+
+        double[] preguntaVector = preguntaAVector(pregunta);
+        INDArray input = Nd4j.create(new double[][]{preguntaVector});
+        INDArray output = model.output(input);
+        int respuestaIndex = Nd4j.argMax(output, 1).getInt(0);
+
+        return indiceARespuesta.get(respuestaIndex);
+    }
+
+    /**
+     * Calcula la recompensa comparando respuesta generada vs correcta
+     */
+    private double calcularRecompensa(String pregunta, String respuestaGenerada, String respuestaCorrecta) {
+        respuestaGenerada = respuestaGenerada.toLowerCase();
+        respuestaCorrecta = respuestaCorrecta.toLowerCase();
+
+        // Coincidencia exacta
+        if (respuestaGenerada.equals(respuestaCorrecta)) {
+            return 10.0;
+        }
+
+        String[] palabrasGeneradas = respuestaGenerada.split(" ");
+        String[] palabrasCorrectas = respuestaCorrecta.split(" ");
+
+        int coincidencias = 0;
+        for (String pGen : palabrasGeneradas) {
+            for (String pCorr : palabrasCorrectas) {
+                if (pGen.equals(pCorr)) {
+                    coincidencias++;
+                    break;
+                }
+            }
+        }
+
+        double recompensa = ((double) coincidencias / palabrasCorrectas.length) * 10;
+        return Math.max(-1, recompensa);
+    }
+
+    /**
+     * El agente aprende de la pregunta y la respuesta
+     */
+    public void learn(String pregunta, String respuestaGenerada, String respuestaCorrecta) {
+        double[] preguntaVector = preguntaAVector(pregunta);
+        INDArray input = Nd4j.create(new double[][]{preguntaVector});
+
+        // Crear target one-hot: solo la respuesta correcta tiene valor 1.0
+        double[] targetArray = new double[ACTIONS];
+        Integer indiceCorrecta = respuestaAIndice.get(respuestaCorrecta);
+        if (indiceCorrecta == null) {
+            // Si no está en el mapeo, encontrar la más similar
+            indiceCorrecta = 0;
+        }
+        targetArray[indiceCorrecta] = 1.0;
+
+        INDArray target = Nd4j.create(new double[][]{targetArray});
+
+        // Calcular recompensa
+        double reward = calcularRecompensa(pregunta, respuestaGenerada, respuestaCorrecta);
+
+        // Si la recompensa es buena, reforzar el aprendizaje
+        if (reward > 5) {
+            model.fit(input, target);
+        } else {
+            // Si es mala, aún entrenar pero con menos peso
+            model.fit(input, target);
+        }
+
+        epsilon *= EPSILON_DECAY;
+
+        // Registrar si acertó para estadísticas
+        if (reward > 5) {
+            totalAciertos++;
+        }
+        totalIntentosEntrenamiento++;
+    }
+
+    public void disableExploration() {
+        epsilon = 0.0;
+    }
+
+    public void resetEpsilon() {
+        epsilon = 1.0;
+    }
+
+    public static void main(String[] args) {
+        // Cargar preguntas desde JSON
+        String rutaJSON = "preguntas.json";
+        cargarDesdeJSON(rutaJSON);
+
+        ChatRLAgent agent = new ChatRLAgent();
+
+        System.out.println("╔════════════════════════════════════════╗");
+        System.out.println("║   📚 CHATBOT CON RL - JSON CONFIG     ║");
+        System.out.println("║        POR LETRA (26 NEURONAS)        ║");
+        System.out.println("╚════════════════════════════════════════╝\n");
+
+        System.out.println("🧠 Arquitectura de la red:");
+        System.out.println("  Entrada: 26 neuronas (una por letra a-z)");
+        System.out.println("  Capa 1:  128 neuronas (RELU)");
+        System.out.println("  Capa 2:  64 neuronas (RELU)");
+        System.out.println("  Capa 3:  32 neuronas (RELU)");
+        System.out.println("  Salida:  15 neuronas (SOFTMAX + Cross-Entropy)\n");
+
+        System.out.println("⚙️ Parámetros:");
+        System.out.println("  Learning Rate: " + ChatRLAgent.LEARNING_RATE);
+        System.out.println("  Epsilon Decay: " + ChatRLAgent.EPSILON_DECAY);
+        System.out.println("  Gamma: " + ChatRLAgent.GAMMA + "\n");
+
+        // ========== ENTRENAMIENTO ==========
+        System.out.println("📚 INICIANDO ENTRENAMIENTO...\n");
+
+        int episodios = 500;
+
+        for (int ep = 1; ep <= episodios; ep++) {
+            double recompensaTotalEpisodio = 0;
+            int intentosEpisodio = 0;
+
+            for (Map.Entry<String, String> entry : RESPUESTAS_CORRECTAS.entrySet()) {
+                String pregunta = entry.getKey();
+                String respuestaCorrecta = entry.getValue();
+
+                String respuestaGenerada = agent.selectResponse(pregunta);
+                double recompensa = agent.calcularRecompensa(pregunta, respuestaGenerada, respuestaCorrecta);
+                agent.learn(pregunta, respuestaGenerada, respuestaCorrecta);
+
+                recompensaTotalEpisodio += recompensa;
+                intentosEpisodio++;
+            }
+
+            // Mostrar progreso cada 20 episodios
+            if (ep % 20 == 0) {
+                double porcentajeAcierto = (agent.totalAciertos * 100.0) / agent.totalIntentosEntrenamiento;
+                double recompensaPromedio = recompensaTotalEpisodio / intentosEpisodio;
+                System.out.println("Episodio " + ep + "/" + episodios +
+                                 " | Precisión: " + String.format("%.1f", porcentajeAcierto) + "% | " +
+                                 "Recompensa: " + String.format("%.2f", recompensaPromedio) + "/10 | " +
+                                 "ε: " + String.format("%.4f", agent.epsilon));
+            }
+        }
+
+        System.out.println("\n✅ Entrenamiento completado.\n");
+
+        // ========== PRUEBA ==========
+        System.out.println("🧪 PRUEBA DEL CHATBOT ENTRENADO\n");
+
+        agent.disableExploration();
+
+        System.out.println("╔════════════════════════════════════════╗");
+        System.out.println("║     🤖 CHATBOT RL EN ACCIÓN 🤖        ║");
+        System.out.println("╚════════════════════════════════════════╝\n");
+
+        int aciertosFinales = 0;
+        for (Map.Entry<String, String> entry : RESPUESTAS_CORRECTAS.entrySet()) {
+            String pregunta = entry.getKey();
+            String respuestaCorrecta = entry.getValue();
+            String respuestaGenerada = agent.selectResponse(pregunta);
+
+            double reward = agent.calcularRecompensa(pregunta, respuestaGenerada, respuestaCorrecta);
+            String estado = (reward > 5) ? "✅ CORRECTO" : "❌ INCORRECTO";
+            if (reward > 5) aciertosFinales++;
+
+            System.out.println("Pregunta:          \"" + pregunta + "\"");
+            System.out.println("Esperada:          \"" + respuestaCorrecta + "\"");
+            System.out.println("Generada:          \"" + respuestaGenerada + "\"");
+            System.out.println("Puntuación:        " + String.format("%.1f", reward) + "/10  " + estado);
+            System.out.println("─────────────────────────────────────────\n");
+        }
+
+        System.out.println("╔════════════════════════════════════════╗");
+        System.out.println("║          📊 RESULTADOS FINALES         ║");
+        System.out.println("║  Aciertos: " + aciertosFinales + "/" + RESPUESTAS_CORRECTAS.size() +
+                         "  (" + String.format("%.1f", (aciertosFinales * 100.0) / RESPUESTAS_CORRECTAS.size()) + "%)");
+        System.out.println("╚════════════════════════════════════════╝");
+
+        // ========== PRUEBA CON PREGUNTAS NUEVAS NO ENTRENADAS ==========
+        System.out.println("\n\n╔════════════════════════════════════════╗");
+        System.out.println("║  🔬 PRUEBA CON PREGUNTAS NUEVAS        ║");
+        System.out.println("║     (NO ENTRENADAS - GENERALIZACIÓN)    ║");
+        System.out.println("╚════════════════════════════════════════╝\n");
+
+        String[] preguntasNuevas = {
+            "hola amigo",
+            "cómo te va",
+            "qué onda",
+            "me ayudas",
+            "cuál es tu nombre",
+            "hasta luego",
+            "muchas gracias",
+            "buenos tardes",
+            "dime quién eres",
+            "hola qué tal",
+            "no entiendo",
+            "en qué puedo ayudarte",
+            "feliz noche",
+            "presenta",
+            "te conozco"
+        };
+
+        System.out.println("Probando con preguntas nuevas no vistas durante el entrenamiento:\n");
+
+        int aciertosNuevos = 0;
+        int parcialidadNueva = 0;
+
+        for (String pregunta : preguntasNuevas) {
+            String respuestaGenerada = agent.selectResponse(pregunta);
+            String respuestaMasCercana = encontrarRespuestaMasCercana(pregunta, agent);
+
+            double reward = agent.calcularRecompensa(pregunta, respuestaGenerada, respuestaMasCercana);
+            String estado = "";
+            if (reward > 8) {
+                estado = "✅ MUY BUENO";
+                aciertosNuevos++;
+            } else if (reward > 5) {
+                estado = "🟨 PARCIAL";
+                parcialidadNueva++;
+            } else if (reward > 2) {
+                estado = "⚠️ DÉBIL";
+            } else {
+                estado = "❌ MALO";
+            }
+
+            System.out.println("Pregunta nueva:    \"" + pregunta + "\"");
+            System.out.println("Esperada:          \"" + respuestaMasCercana + "\"");
+            System.out.println("Respuesta:         \"" + respuestaGenerada + "\"");
+            System.out.println("Puntuación:        " + String.format("%.1f", reward) + "/10  " + estado);
+            System.out.println("─────────────────────────────────────────\n");
+        }
+
+        System.out.println("╔════════════════════════════════════════╗");
+        System.out.println("║      📈 RESULTADOS GENERALIZACIÓN      ║");
+        System.out.println("║  Excelentes (>8):   " + aciertosNuevos + "/" + preguntasNuevas.length);
+        System.out.println("║  Parciales (5-8):   " + parcialidadNueva + "/" + preguntasNuevas.length);
+        System.out.println("║  Porcentaje éxito:  " + String.format("%.1f", ((aciertosNuevos + parcialidadNueva) * 100.0) / preguntasNuevas.length) + "%");
+        System.out.println("╚════════════════════════════════════════╝");
+    }
+
+    /**
+     * Encuentra la respuesta más similar a una pregunta nueva
+     * basándose en las letras compartidas
+     */
+    private static String encontrarRespuestaMasCercana(String pregunta, ChatRLAgent agent) {
+        String preguntaLower = pregunta.toLowerCase().replaceAll("[^a-z]", "");
+        String mejorRespuesta = "no entiendo";
+        int maxCoincidencias = 0;
+
+        for (String preguntaEntrenada : RESPUESTAS_CORRECTAS.keySet()) {
+            String preguntaEntrenadaLower = preguntaEntrenada.toLowerCase().replaceAll("[^a-z]", "");
+
+            // Contar letras en común
+            int coincidencias = 0;
+            for (char c : preguntaLower.toCharArray()) {
+                if (preguntaEntrenadaLower.indexOf(c) >= 0) {
+                    coincidencias++;
+                }
+            }
+
+            if (coincidencias > maxCoincidencias) {
+                maxCoincidencias = coincidencias;
+                mejorRespuesta = RESPUESTAS_CORRECTAS.get(preguntaEntrenada);
+            }
+        }
+
+        return mejorRespuesta;
+    }
+}
