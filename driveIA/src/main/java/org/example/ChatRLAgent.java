@@ -205,10 +205,10 @@ public class ChatRLAgent {
         ChatRLAgent agent = new ChatRLAgent();
         agent.inicializarRed();
 
-        System.out.println("╔════════════════════════════════════════╗");
-        System.out.println("║   📚 CHATBOT CON RL - DINÁMICO        ║");
-        System.out.println("║   (Adapta respuestas según JSON)       ║");
-        System.out.println("╚════════════════════════════════════════╝\n");
+        System.out.println("╔═══════════════════════════════════════╗");
+        System.out.println("║   CHATBOT CON RL - DINÁMICO           ║");
+        System.out.println("║   (Adapta respuestas según JSON)      ║");
+        System.out.println("╚═══════════════════════════════════════╝\n");
 
         System.out.println("🧠 Arquitectura de la red:");
         System.out.println("  Entrada: 26 neuronas (una por letra a-z)");
@@ -261,7 +261,7 @@ public class ChatRLAgent {
         agent.disableExploration();
 
         System.out.println("╔════════════════════════════════════════╗");
-        System.out.println("║     🤖 CHATBOT RL EN ACCIÓN 🤖        ║");
+        System.out.println("║      🤖 CHATBOT RL EN ACCIÓN 🤖        ║");
         System.out.println("╚════════════════════════════════════════╝\n");
 
         int aciertosFinales = 0;
@@ -286,10 +286,9 @@ public class ChatRLAgent {
         }
 
         System.out.println("╔════════════════════════════════════════╗");
-        System.out.println("║          📊 RESULTADOS FINALES         ║");
-        System.out.println("║  Aciertos (muestra): " + aciertosFinales + "/" + muestraSize +
-                         "  (" + String.format("%.1f", (aciertosFinales * 100.0) / muestraSize) + "%)");
-        System.out.println("║  Total entrenado: " + RESPUESTAS_CORRECTAS.size() + " pares");
+        System.out.println("║          📊 RESULTADOS FINALES 📊       ║");
+        System.out.println("║  Aciertos (muestra): " + aciertosFinales + "/" + muestraSize + "  (" + String.format("%.1f", (aciertosFinales * 100.0) / muestraSize) + "%)" + "║");
+        System.out.println("║  Total entrenado: " + RESPUESTAS_CORRECTAS.size() + " pares" + "║");
         System.out.println("╚════════════════════════════════════════╝");
     }
 }

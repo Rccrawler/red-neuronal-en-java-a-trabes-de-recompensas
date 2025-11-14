@@ -1,0 +1,165 @@
+╔════════════════════════════════════════╗
+║   📚 CHATBOT CON RL - DINÁMICO        ║
+║   (Adapta respuestas según JSON)       ║
+╚════════════════════════════════════════╝
+
+🧠 Arquitectura de la red:
+  Entrada: 26 neuronas (una por letra a-z)
+  Capa 1:  256 neuronas (RELU)
+  Capa 2:  128 neuronas (RELU)
+  Capa 3:  64 neuronas (RELU)
+  Salida:  382 neuronas (SOFTMAX + Cross-Entropy)
+
+⚙️ Parámetros:
+  Learning Rate: 0.001
+  Epsilon Decay: 0.995
+  Gamma: 0.99
+
+📚 INICIANDO ENTRENAMIENTO...
+
+Episodio 10/100 | Precisión: 20,9% | Recompensa: 4,40/10 | ε: 0,0000
+Episodio 20/100 | Precisión: 37,7% | Recompensa: 6,22/10 | ε: 0,0000
+Episodio 30/100 | Precisión: 47,3% | Recompensa: 7,60/10 | ε: 0,0000
+Episodio 40/100 | Precisión: 55,5% | Recompensa: 8,63/10 | ε: 0,0000
+Episodio 50/100 | Precisión: 61,9% | Recompensa: 9,04/10 | ε: 0,0000
+Episodio 60/100 | Precisión: 66,5% | Recompensa: 9,32/10 | ε: 0,0000
+Episodio 70/100 | Precisión: 69,9% | Recompensa: 9,01/10 | ε: 0,0000
+Episodio 80/100 | Precisión: 72,5% | Recompensa: 9,36/10 | ε: 0,0000
+Episodio 90/100 | Precisión: 74,6% | Recompensa: 9,25/10 | ε: 0,0000
+Episodio 100/100 | Precisión: 76,3% | Recompensa: 9,37/10 | ε: 0,0000
+
+✅ Entrenamiento completado.
+
+🧪 PRUEBA DEL CHATBOT ENTRENADO
+
+╔════════════════════════════════════════╗
+║     🤖 CHATBOT RL EN ACCIÓN 🤖        ║
+╚════════════════════════════════════════╝
+
+Pregunta:          "¿empezamos?"
+Esperada:          "cuando quieras"
+Generada:          "cuando quieras"
+Puntuación:        10,0/10  ✅ CORRECTO
+─────────────────────────────────────────
+
+Pregunta:          "¿vas al gimnasio?"
+Esperada:          "sí"
+Generada:          "sí"
+Puntuación:        10,0/10  ✅ CORRECTO
+─────────────────────────────────────────
+
+Pregunta:          "¿qué tal?"
+Esperada:          "bien, ¿y tú?"
+Generada:          "bien, ¿y tú?"
+Puntuación:        10,0/10  ✅ CORRECTO
+─────────────────────────────────────────
+
+Pregunta:          "hola, buenos días. estoy intentando hacer la matrícula para el curso de inglés, pero no encuentro la opción para pagar con tarjeta. ¿solo se puede pagar por transferencia bancaria?"
+Esperada:          "buenos días. no, también se puede pagar con tarjeta. cuando llegue a la pantalla de resumen del pedido, abajo a la derecha debería ver un botón que pone 'pagar con tarjeta'. a veces tarda un poco en cargar."
+Generada:          "buenos días. no, también se puede pagar con tarjeta. cuando llegue a la pantalla de resumen del pedido, abajo a la derecha debería ver un botón que pone 'pagar con tarjeta'. a veces tarda un poco en cargar."
+Puntuación:        10,0/10  ✅ CORRECTO
+─────────────────────────────────────────
+
+Pregunta:          "¿quieres agua?"
+Esperada:          "sí, por favor"
+Generada:          "sí, por favor"
+Puntuación:        10,0/10  ✅ CORRECTO
+─────────────────────────────────────────
+
+Pregunta:          "¿tienes un bolígrafo?"
+Esperada:          "toma"
+Generada:          "toma"
+Puntuación:        10,0/10  ✅ CORRECTO
+─────────────────────────────────────────
+
+Pregunta:          "¿paramos?"
+Esperada:          "vale"
+Generada:          "vale"
+Puntuación:        10,0/10  ✅ CORRECTO
+─────────────────────────────────────────
+
+Pregunta:          "¿a dónde te gustaría ir?"
+Esperada:          "a japón"
+Generada:          "a japón"
+Puntuación:        10,0/10  ✅ CORRECTO
+─────────────────────────────────────────
+
+Pregunta:          "hola, ¿tienes un minuto? es que me acaba de llegar una multa de tráfico por exceso de velocidad, pero yo no recuerdo haber pasado por esa zona. ¿crees que se puede recurrir?"
+Esperada:          "hola. sí, claro que se puede recurrir. primero comprueba que la matrícula del coche de la foto es la tuya. si lo es, puedes alegar que el radar no estaba bien señalizado o solicitar el certificado de calibración."
+Generada:          "hola. sí, claro que se puede recurrir. primero comprueba que la matrícula del coche de la foto es la tuya. si lo es, puedes alegar que el radar no estaba bien señalizado o solicitar el certificado de calibración."
+Puntuación:        10,0/10  ✅ CORRECTO
+─────────────────────────────────────────
+
+Pregunta:          "¿qué música te gusta?"
+Esperada:          "el pop"
+Generada:          "el pop"
+Puntuación:        10,0/10  ✅ CORRECTO
+─────────────────────────────────────────
+
+Pregunta:          "¿viste algún animal?"
+Esperada:          "una cabra"
+Generada:          "una cabra"
+Puntuación:        10,0/10  ✅ CORRECTO
+─────────────────────────────────────────
+
+Pregunta:          "¿nadas?"
+Esperada:          "en verano"
+Generada:          "en verano"
+Puntuación:        10,0/10  ✅ CORRECTO
+─────────────────────────────────────────
+
+Pregunta:          "¿de acuerdo?"
+Esperada:          "de acuerdo"
+Generada:          "de acuerdo"
+Puntuación:        10,0/10  ✅ CORRECTO
+─────────────────────────────────────────
+
+Pregunta:          "¿te quedas a cenar?"
+Esperada:          "no, me tengo que ir"
+Generada:          "no, me tengo que ir"
+Puntuación:        10,0/10  ✅ CORRECTO
+─────────────────────────────────────────
+
+Pregunta:          "hola. estoy buscando un regalo para el cumpleaños de mi padre y no se me ocurre nada. como tú le conoces bien, ¿se te ocurre algo que le pueda hacer ilusión?"
+Esperada:          "hola. pues el otro día me comentó que le gustaría tener un lector de libros electrónicos para no tener que cargar con los libros. a lo mejor ese podría ser un buen regalo."
+Generada:          "hola. pues el otro día me comentó que le gustaría tener un lector de libros electrónicos para no tener que cargar con los libros. a lo mejor ese podría ser un buen regalo."
+Puntuación:        10,0/10  ✅ CORRECTO
+─────────────────────────────────────────
+
+Pregunta:          "¿te llevas bien con tus compañeros?"
+Esperada:          "sí, genial"
+Generada:          "sí, genial"
+Puntuación:        10,0/10  ✅ CORRECTO
+─────────────────────────────────────────
+
+Pregunta:          "¿de dónde eres?"
+Esperada:          "de sevilla"
+Generada:          "de sevilla"
+Puntuación:        10,0/10  ✅ CORRECTO
+─────────────────────────────────────────
+
+Pregunta:          "¿cuál es tu sueño?"
+Esperada:          "dar la vuelta al mundo"
+Generada:          "dar la vuelta al mundo"
+Puntuación:        10,0/10  ✅ CORRECTO
+─────────────────────────────────────────
+
+Pregunta:          "¿es grande?"
+Esperada:          "lo suficiente"
+Generada:          "lo suficiente"
+Puntuación:        10,0/10  ✅ CORRECTO
+─────────────────────────────────────────
+
+Pregunta:          "hola, ¿qué tal? quería saber si al final os vais de vacaciones en agosto o si estaréis por aquí. lo digo por si nos podemos organizar para veros."
+Esperada:          "hola. pues al final nos quedamos aquí en agosto, que hay menos gente en todas partes y se está más tranquilo. así que cuando queráis nos vemos, que ya hay ganas."
+Generada:          "hola. pues al final nos quedamos aquí en agosto, que hay menos gente en todas partes y se está más tranquilo. así que cuando queráis nos vemos, que ya hay ganas."
+Puntuación:        10,0/10  ✅ CORRECTO
+─────────────────────────────────────────
+
+╔════════════════════════════════════════╗
+║          📊 RESULTADOS FINALES         ║
+║  Aciertos (muestra): 20/20  (100,0%)
+║  Total entrenado: 571 pares
+╚════════════════════════════════════════╝
+
+Process finished with exit code 0
